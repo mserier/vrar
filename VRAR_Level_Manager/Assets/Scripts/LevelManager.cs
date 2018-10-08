@@ -5,27 +5,35 @@ using System.IO;
 
 public class LevelManager : MonoBehaviour {
 
-	const float TILE_WIDTH = 1.73205f; //sqrt(3)
-	const float TILE_HEIGHT = 1.5f;
-	//const float TILE_OFFSET = 0.865f;
+	const float TILE_WIDTH = 2; //radius = 1 so diameter = 2
+	const float TILE_LENGTH = 1.73205f; //sqrt(3)
+
+    //(old tile)
+    //const float TILE_WIDTH = 1.73205f; //sqrt(3)
+    //const float TILE_LENGTH = 1f;
 
 
-	//amount of seperate lvls shouldn't get that high so we just use a list we can itterate through
-	List<VRAR_Level> vrarLevels = new List<VRAR_Level>();
+    //amount of seperate lvls shouldn't get that high so we just use a list we can itterate through
+    List<VRAR_Level> vrarLevels = new List<VRAR_Level>();
 
     void Start () {
-		discoverLevels();
+        //Create a GameStateManager instance
+        GameStateManager gsm = new GameStateManager();
 
-		if (Application.isEditor)
-		{//use the project location
-			Debug.Log(Application.dataPath);
+        //Create folders needed
+        if (Application.isEditor)
+        {//use the project location
+            var folder = Directory.CreateDirectory(Application.dataPath + "/levels"); // returns a DirectoryInfo object
+            Debug.Log(Application.dataPath);
 		}
-		else 
-		{//use the user save location
-			Debug.Log(Application.persistentDataPath);
-		}
-		//spawnLevelsOverview();
-	}
+		else
+        {//use the user save location
+            var folder = Directory.CreateDirectory(Application.persistentDataPath + "/levels"); // returns a DirectoryInfo object
+            Debug.Log(Application.persistentDataPath);
+        }
+
+        discoverLevels();
+    }
 
 	void Update ()
 	{
@@ -36,8 +44,6 @@ public class LevelManager : MonoBehaviour {
     {
         return vrarLevels;
     }
-
-
 		
 
 	/**
@@ -45,18 +51,25 @@ public class LevelManager : MonoBehaviour {
 	 **/
 	public Vector3 getWorldPosFromTilePos(int xI, int yI, float scale)
 	{
-		return new Vector3(xI*TILE_WIDTH+(yI%2*(TILE_WIDTH/2)), scale/4f, yI*TILE_HEIGHT);//Random.Range(-0.25f, 0.25f)
-	}
+		return new Vector3(xI*TILE_WIDTH+(yI%2*(TILE_WIDTH/2)),1, yI*TILE_LENGTH);//Random.Range(-0.25f, 0.25f)
+        //return new Vector3(xI * TILE_WIDTH + (yI % 2 * (TILE_WIDTH / 2)), scale / 4f, yI * TILE_LENGTH);//Random.Range(-0.25f, 0.25f)
+    }
 
 	/**
 	 * Gets the tile index position from ingame position
 	 **/
 	public Vector2Int getTilePosFromWorldPos(Vector3 worldPos)
 	{
-		return new Vector2Int((int)Mathf.Round(worldPos.x/TILE_WIDTH), (int)Mathf.Round(worldPos.z/TILE_HEIGHT));//TODO test for middle of tile for possible rounding errors
+        int yI = (int)Mathf.Round(worldPos.z / TILE_LENGTH);
+        int xI = (int)Mathf.Round(worldPos.x / TILE_WIDTH - (yI % 2f * (TILE_WIDTH / 4f)));
+
+        return new Vector2Int(xI, yI);
 	}
 
-
+    /**
+     * Gets the level object from the tileposition of the CAMPAIGN OVERVIEW!
+     * Do NOT attempt to use this method from inside a level
+     **/
 	public VRAR_Level getLevelObjectFromTilePos(Vector2Int index)
 	{
 		foreach (VRAR_Level lvl in vrarLevels)
@@ -101,7 +114,7 @@ public class LevelManager : MonoBehaviour {
 			}
 		}
 
-        /*
+        /* gen square
 		for (int x = 0; x < 10; x++)
 		{
 			for (int y = 0; y < 10; y++)
@@ -111,7 +124,7 @@ public class LevelManager : MonoBehaviour {
 			}
 		}*/
 
-		/*
+		/* gen circle
 		int radius = 5;
 		for (int y = -radius; y <= radius; y++)
 		{

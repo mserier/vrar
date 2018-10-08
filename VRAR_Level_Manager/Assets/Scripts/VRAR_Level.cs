@@ -8,8 +8,7 @@ public class VRAR_Level
 {
     public VRAR_Tile levelTile;
 
-    private int LevelIconID = 0;
-
+    private int levelIconID = 0;
 
     public List<VRAR_Tile> vrarTiles = new List<VRAR_Tile>();
 
@@ -19,7 +18,10 @@ public class VRAR_Level
     {
         VRAR_Tile res = null;
         //res = vrarTileArray[iX+negOffsetX,iY+negOffsetY];
-        res = vrarTileDict[new Vector2Int(iX, iY)];
+
+        Vector2Int key = new Vector2Int(iX, iY);
+        if (vrarTileDict.ContainsKey(key))
+            res = vrarTileDict[key];
         return res;
     }
 
@@ -36,7 +38,6 @@ public class VRAR_Level
         //read which levels there are and create the VRAR_Level object
         //read for every level the tiles and create the VRAR_Tile objects
 
-        //TODO generate the /levels/ directory if this doesn't exist yet.
         TextWriter tw;
         if (Application.isEditor)
         {//use the project location
@@ -139,32 +140,182 @@ public class VRAR_Level
     }
 
     /**
+     * Returns a list of tiles in a circle around the given coord (circle IS filled in)
+     **/
+    public List<VRAR_Tile> selectRadius(int xI, int yI, int radius)
+    {
+        //We go east from the given coord, and go in a circle around the hex tile, for every radius+1 the circle increases with 6 tiles.
+        int circleAmount = 0;//= 6 * radius;
+        for(int i=0;i<radius;i++)
+        {
+            circleAmount += (radius - i) * 6;
+        }
+
+        List<VRAR_Tile> result = new List<VRAR_Tile>(circleAmount);
+
+        for(int i=0;i<radius;i++)
+        {
+            result.AddRange(selectCircle(xI, yI, i));
+        }
+
+
+        return result;
+    }
+
+    /**
+     * Returns a list of tiles in a circle around the coord (circle IS NOT filled in)
+     **/
+    public List<VRAR_Tile> selectCircle(int xI, int yI, int radius)
+    {
+        int circleAmount = 6 * radius;
+        List<VRAR_Tile> result = new List<VRAR_Tile>(circleAmount);
+
+
+        /** I thought you said "weast." 
+                    ,,,. *,,,,,,,.                   ((  (((((((((((   
+                    .,,,((,,,,,,,,,      (((((((((       (**(      ((  
+                     ,,,,,,,,,,,,,,,,.  ((        ((     (((       ((  
+                     ,,,,,,,,,,/(((/,.,((          (      ((       (   
+                     ,,,,,.///((((((/%,(            (       (     (    
+                     .,,/((*,*((((((//%,    (             ((   (     
+                 .,,.,,/(((/((/( ^//&&&&&*      (        (((    (     
+                ,,,.*.,*(((((/&&&&&(&&&&& *        (             ((((((
+                    ,,,^/((((/&&&&& ( &&&..,((((     (         ((      (
+                   *   ,/((((*&&&&&, *&&&&&*            ((   ((        
+                       (/((((((&&@&&&&&& *.  (         (       ((        (
+                        *(((((/&&&&&/%^/((/%  .((((((    (((( (    
+                        *((((((//&& *(((((((((*          (        ((   (
+                        *(((((((((((((((((*...,..       (          (
+                        *(((((((((*...,..,/(((((*      (             
+                        ^/(((((,,.,,.,((((((((((*        (   (     (   
+                   &    ^/((((*,,,./((((((((((((/%           (((     
+                &       ^/((((..,((((((((((((((((/,                    
+                        ^/(((((((((((((((((((((((((*                   
+                       /,(((((((((((((((((((((((((((*                  
+                       ,*((((((((((((((((((((((((((((/%                
+                       ^/((((((((((((((((((((((((((((((*,              
+                      ^/((((((((((((((((((((((((((((((((/%.            
+             (( ((   .*(((((((((((((((((((((((((((((((((((/%           
+            ((   /   *((((((((((((((((((((((((((^/((((((((((**         
+            /% (/// *(((((((((((((((((((((((((((((((((((((((((/%**( */
+
+
+        VRAR_Tile baseTile = getTileFromIndexPos(xI, yI);
+        if(radius==0)
+            result.Add(baseTile);
+        //you need to go east for radius amount of times
+        for (int i = 0; i < radius; i++){baseTile = getAdjacentTile(baseTile.tileIndex_X, baseTile.tileIndex_Y, 1);}
+        //after going east for radius amount of times, you need to go south-west for radius amount of times.
+        for (int i = 0; i < radius; i++){baseTile = getAdjacentTile(baseTile.tileIndex_X, baseTile.tileIndex_Y, 3);result.Add(baseTile);}
+        //after going south-west, you need to go west for radius amount of times
+        for (int i = 0; i < radius; i++){baseTile = (getAdjacentTile(baseTile.tileIndex_X, baseTile.tileIndex_Y, 4));result.Add(baseTile);}
+        //after going west, you need to go north-west for radius amount of times
+        for (int i = 0; i < radius; i++){baseTile = (getAdjacentTile(baseTile.tileIndex_X, baseTile.tileIndex_Y, 5));result.Add(baseTile);}
+        //after going north-west, you need to go north-east for radius amount of times
+        for (int i = 0; i < radius; i++){baseTile = (getAdjacentTile(baseTile.tileIndex_X, baseTile.tileIndex_Y, 0));result.Add(baseTile);}
+        //after going north-east, you need to go east for radius amount of times
+        for (int i = 0; i < radius; i++){baseTile = (getAdjacentTile(baseTile.tileIndex_X, baseTile.tileIndex_Y, 1));result.Add(baseTile);}
+        //after going east, you need to go south-east for radius-1 amount of times
+        for (int i = 0; i < (radius); i++){baseTile = (getAdjacentTile(baseTile.tileIndex_X, baseTile.tileIndex_Y, 2));result.Add(baseTile);}
+
+        return result;
+    }
+
+    /**
+     *Gets the adjacent tile of the given coord
+     * dir:
+        0: north east
+        1: east
+        2: south east
+        3: south west
+        4: west
+        5: north west
+
+        WARNING: returns fantom tile if the tile doesn't exist
+     **/
+    public VRAR_Tile getAdjacentTile(int xI, int yI, int dir)
+    {
+        VRAR_Tile res = null;
+        /*(Note to math-heads; PLEASE SAVE US!!)*/
+        switch(dir)
+        {
+            case 0://north-east
+                if(yI%2==0)
+                {
+                    res = getTileFromIndexPos(xI, yI + 1);
+                    if (res == null) { res = new VRAR_Tile(xI, yI+1, 69f); }
+                }
+                else
+                {
+                    res = getTileFromIndexPos(xI+1, yI + 1);
+                    if (res == null) { res = new VRAR_Tile(xI+1, yI+1, 69f); }
+                }
+                break;
+                
+            case 1://east
+                res =  getTileFromIndexPos(xI+1, yI);
+                if (res == null) { res = new VRAR_Tile(xI+1, yI, 69f); }
+                break;
+
+            case 2://south-east
+                if (yI % 2 == 0)
+                {
+                    res =  getTileFromIndexPos(xI, yI - 1);
+                    if (res == null) { res = new VRAR_Tile(xI, yI-1, 69f); }
+                }
+                else
+                {
+                    res =  getTileFromIndexPos(xI + 1, yI - 1);
+                    if (res == null) { res = new VRAR_Tile(xI+1, yI-1, 69f); }
+                }
+                break;
+
+            case 3://south-west
+                if (yI % 2 == 0)
+                {
+                    res =  getTileFromIndexPos(xI, yI - 1);
+                    if (res == null) { res = new VRAR_Tile(xI, yI-1, 69f); }
+                }
+                else
+                {
+                    res =  getTileFromIndexPos(xI - 1, yI - 1);
+                    if (res == null) { res = new VRAR_Tile(xI-1, yI-1, 69f); }
+                }
+                break;
+
+            case 4://west
+                res =  getTileFromIndexPos(xI - 1, yI);
+                if (res == null) { res = new VRAR_Tile(xI-1, yI, 69f); }
+                break;
+
+            case 5://north-west
+                if (yI % 2 == 0)
+                {
+                    res =  getTileFromIndexPos(xI, yI + 1);
+                    if (res == null) { res = new VRAR_Tile(xI, yI+1, 69f); }
+                }
+                else
+                {
+                    res =  getTileFromIndexPos(xI - 1, yI + 1);
+                    if (res == null) { res = new VRAR_Tile(xI-1, yI+1, 69f); }
+                }
+                break;
+
+        }
+
+        return res;
+
+    }
+
+    /**
+     * (WARNING not used right now)
 	 * Update a subtile of a lvl
 	 **/
-	public void tileUpdate(int xI, int yI)
+    public void tileUpdate(int xI, int yI)
 	{
 		//notify surrounding tiles of the change
 		/*
-		VRAR_Tile left = getTileFromIndexPos(xI-1, yI);
-		VRAR_Tile bttm = getTileFromIndexPos(xI, yI-1);
-		VRAR_Tile bttmRight = getTileFromIndexPos(xI+1, yI-1);
-		VRAR_Tile right = getTileFromIndexPos(xI+1, yI);
-		VRAR_Tile top = getTileFromIndexPos(xI, yI+1);
-		VRAR_Tile topLeft = getTileFromIndexPos(xI-1, yI+1);
-
-		left.isDirty = true;
-		bttm.isDirty = true;
-		bttmRight.isDirty = true;
-		right.isDirty = true;
-		top.isDirty = true;
-		topLeft.isDirty = true;
-
-		top.hexObject.gameObject.GetComponent<Renderer>().material = null;
-		right.hexObject.gameObject.GetComponent<Renderer>().material = null;
-		bttmRight.hexObject.gameObject.GetComponent<Renderer>().material = null;
-		bttm.hexObject.gameObject.GetComponent<Renderer>().material = null;
-		left.hexObject.gameObject.GetComponent<Renderer>().material = null;
-		topLeft.hexObject.gameObject.GetComponent<Renderer>().material = null;*/
+		*/
 	}
 
 	//vrar level binary layout
@@ -181,7 +332,7 @@ public class VRAR_Tile
 
     public int tileIndex_X { get; set; }
     public int tileIndex_Y { get; set; }
-    public float height_ { get; set; }
+    public float height_ { get; private set; }
 
     private bool isDirty = false;
 
@@ -239,9 +390,28 @@ public class VRAR_Tile
         return dumbObjectsList;
     }
 
+    public void setHeight(float height)
+    {
+        hexObject.gameObject.isStatic = false;
+        height_ = height;
+        if (hexObject != null)
+        {
+            hexObject.localScale = new Vector3(1, height_, 1);
+            
+            //Use this when the tileboject origin is in the middle of the model instead of at the bottom-middle of the model
+            //hexObject.transform.SetPositionAndRotationposition.Set(hexObject.localPosition.x, height_*4f, hexObject.localPosition.z);
+            //hexObject.gameObject.GetComponent<Renderer>().material = null;
+        }
+        else
+        {
+            Debug.Log("eh");
+        }
+        hexObject.gameObject.isStatic = true;
+    }
+
     override
     public string ToString()
     {
-        return "tile[" + tileIndex_X + "][" + tileIndex_Y + ']';
+        return "tile[" + tileIndex_X + "][" + tileIndex_Y + ']'+" h["+height_+']';
     }
 }

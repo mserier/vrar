@@ -18,6 +18,7 @@ public class TileRenderer : MonoBehaviour {
     public Transform hexPREFAB;
     public Material selectedTileMaterial;
     public Material defaultTileMaterial;
+    public Material waterTileMaterial;
     public Transform ingameCursor;
     public Text selectedLevelText;
 
@@ -27,6 +28,7 @@ public class TileRenderer : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
+        previousSelectedTileMaterial = defaultTileMaterial;
         List<VRAR_Level>  lvls = lvlManager.getVRARLevels();
         if(lvls.Count==0)
         {
@@ -35,32 +37,95 @@ public class TileRenderer : MonoBehaviour {
         spawnLevelsOverview();
     }
 
+    private GameObject previousSelectedTile =null;
+    private Material previousSelectedTileMaterial = null;
+
+    //TODO This should propably be kept in a gamestate manager
+    static VRAR_Level lvl = null;
+    public static VRAR_Level getCurrLVL() { return lvl; }
+
     // Update is called once per frame
     void Update ()
     {
-        VRAR_Level lvl;
+        cursorMove();
         switch (stateIndex)
         {
             case 0:
                 lvl = lvlManager.getLevelObjectFromTilePos(lvlManager.getTilePosFromWorldPos(ingameCursor.position));
                 if (lvl != null)
                 {
+
+                    //Reset the previous tile back to normal
+                    if (previousSelectedTile != null)
+                    {
+                        previousSelectedTile.GetComponent<Renderer>().material = previousSelectedTileMaterial;
+                        previousSelectedTileMaterial = lvl.levelTile.hexObject.gameObject.GetComponent<Renderer>().material;
+                    }
+
+                    //Set material of selected tile
                     lvl.levelTile.hexObject.gameObject.GetComponent<Renderer>().material = selectedTileMaterial;
+
+                    //Add update list of selected tiles
                     selectedTiles.Clear();
                     selectedTiles.Add(lvl.levelTile);
+
+                    //update debug text of current selected tile
                     selectedLevelText.text = "lvl :" + lvl.levelTile.tileIndex_X + "  " + lvl.levelTile.tileIndex_Y;
-                    //Vector2Int pos = getTilePosFromWorldPos(ingameCursor.position);
+
+                    previousSelectedTile = lvl.levelTile.hexObject.gameObject;
                 }
                 break;
             default:
-                lvl = lvlManager.getLevelObjectFromTilePos(lvlManager.getTilePosFromWorldPos(ingameCursor.position));
-                if (lvl != null)
+                VRAR_Tile selTile=  lvl.getTileFromIndexPos(lvlManager.getTilePosFromWorldPos(ingameCursor.position).x, lvlManager.getTilePosFromWorldPos(ingameCursor.position).y);
+                if (selTile != null)
                 {
+
+                    //Reset the previous tile back to normal
+                    if (previousSelectedTile != null)
+                    {
+                        previousSelectedTile.GetComponent<Renderer>().material = previousSelectedTileMaterial;
+                        previousSelectedTileMaterial = selTile.hexObject.gameObject.GetComponent<Renderer>().material;
+                    }
+
+                    //Set material of selected tile
+                    selTile.hexObject.gameObject.GetComponent<Renderer>().material = selectedTileMaterial;
+
+                    //Add update list of selected tiles
+                    selectedTiles.Clear();
+                    selectedTiles.Add(selTile);
+
+                    //update debug text of current selected tile
+                    selectedLevelText.text = "lvl :" + selTile.tileIndex_X + "  " + selTile.tileIndex_Y;
+
+                    previousSelectedTile = selTile.hexObject.gameObject;
+
                     lvl.tileUpdate(0, 0);
                 }
                 break;
         }
 
+    }
+
+    /**
+     * Temporary movement function (since we don't have the vive wand controllers
+     **/
+    private void cursorMove()
+    {
+        float moveHorizontal = Input.GetAxis("Horizontal");
+        float moveVertical = Input.GetAxis("Vertical");
+
+        if (moveHorizontal > 0.1f)
+            moveHorizontal = 0.1f;
+        if (moveVertical > 0.1f)
+            moveVertical = 0.1f;
+        if (moveHorizontal < -0.1f)
+            moveHorizontal = -0.1f;
+        if (moveVertical < -0.1f)
+            moveVertical = -0.1f;
+
+        Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
+
+        ingameCursor.Translate(new Vector3(moveHorizontal, 0, moveVertical));
     }
 
     public void spawnLevelsOverview()
@@ -134,6 +199,9 @@ public class TileRenderer : MonoBehaviour {
 
     public void saveLVLClick()
     {
+        //if in level, save that level
         lvlManager.getLevelObjectFromTilePos(lvlManager.getTilePosFromWorldPos(ingameCursor.position)).createLVLFile();
+        //else create new lvl from levelmanager
+        //else print wut?
     }
 }
