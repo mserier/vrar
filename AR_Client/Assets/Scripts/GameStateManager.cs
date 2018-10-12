@@ -11,41 +11,49 @@ using UnityEngine;
  **/
 public class GameStateManager
 {
-    /********************************
+	public static readonly int STATE_DEFAULT = 0;
+	public static readonly int STATE_CAMPAIGN_EDITOR = 1;
+	public static readonly int STATE_LOBBY = 2;
+	public static readonly int STATE_PLAYING = 3;
+	public static readonly int STATE_LEVEL_EDITOR = 4;
+
+	/********************************
      * 0: default state; For VR/AR player the main menu is shown
      * 1: campaign editor state; The VR player is in the campaign editor 
      * 2: game lobby state; The VR/AR player is in a game lobby
      * 3: game playing state; The VR/AR player is currently playing a game.
      *********************************/
-    int globalStateIndex = 0;
+	int globalStateIndex = 0;
 
-    public static GameStateManager instance { get; private set; }
 
-    public GameStateManager()
-    {
-        if(instance!=null)
-        {
-            Debug.LogError("Warning someone tried to create a new GameStateManager instance even though one already exists! (Use GameStateManager.instance instead)");
-            return;
-        }
-        instance = this;
-    }
+	public static GameStateManager instance { get; private set; }
 
-    /** (not realy but you get the point)
+	public GameStateManager()
+	{
+		if(instance!=null)
+		{
+			Debug.LogError("Warning someone tried to create a new GameStateManager instance even though one already exists! (Use GameStateManager.instance instead)");
+			return;
+		}
+		instance = this;
+	}
+
+	/** (not realy but you get the point)
      * valid states: 2,3
      * used in VRAR_Level.getAdjacentTile(int xI, int yI, int dir) 
      **/
-    public string dummyMember { get; set; }
+	public string dummyMember { get; set; }
 
-    public int getGlobalStateIndex()
-    {
-        return globalStateIndex;
-    }
+	public int getGlobalStateIndex()
+	{
+		return globalStateIndex;
+	}
 
-    public void setGlobalStateIndex(int index)
-    {
-        globalStateIndex = index;
+	public void setGlobalStateIndex(int index)
+	{
+		globalStateIndex = index;
 
-    }
+	}
+
 
 }
