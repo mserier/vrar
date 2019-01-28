@@ -1,0 +1,393 @@
+fileFormatVersion: 2
+guid: 03c59e37d41bf4c4a99c4a552ef52496
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Character 2_Ctrl:ChestEndEffector
+    100004: Character 2_Ctrl:ChestOriginEffector
+    100006: Character 2_Ctrl:Head
+    100008: Character 2_Ctrl:HeadEffector
+    100010: Character 2_Ctrl:Hips
+    100012: Character 2_Ctrl:HipsEffector
+    100014: Character 2_Ctrl:LeftAnkleEffector
+    100016: Character 2_Ctrl:LeftArm
+    100018: Character 2_Ctrl:LeftElbowEffector
+    100020: Character 2_Ctrl:LeftFoot
+    100022: Character 2_Ctrl:LeftFootEffector
+    100024: Character 2_Ctrl:LeftForeArm
+    100026: Character 2_Ctrl:LeftHand
+    100028: Character 2_Ctrl:LeftHandIndex1
+    100030: Character 2_Ctrl:LeftHandIndex2
+    100032: Character 2_Ctrl:LeftHandIndex3
+    100034: Character 2_Ctrl:LeftHandIndex4
+    100036: Character 2_Ctrl:LeftHandIndexEffector
+    100038: Character 2_Ctrl:LeftHandMiddle1
+    100040: Character 2_Ctrl:LeftHandMiddle2
+    100042: Character 2_Ctrl:LeftHandMiddle3
+    100044: Character 2_Ctrl:LeftHandMiddle4
+    100046: Character 2_Ctrl:LeftHandMiddleEffector
+    100048: Character 2_Ctrl:LeftHandPinky1
+    100050: Character 2_Ctrl:LeftHandPinky2
+    100052: Character 2_Ctrl:LeftHandPinky3
+    100054: Character 2_Ctrl:LeftHandPinky4
+    100056: Character 2_Ctrl:LeftHandPinkyEffector
+    100058: Character 2_Ctrl:LeftHandRing1
+    100060: Character 2_Ctrl:LeftHandRing2
+    100062: Character 2_Ctrl:LeftHandRing3
+    100064: Character 2_Ctrl:LeftHandRing4
+    100066: Character 2_Ctrl:LeftHandRingEffector
+    100068: Character 2_Ctrl:LeftHandThumb1
+    100070: Character 2_Ctrl:LeftHandThumb2
+    100072: Character 2_Ctrl:LeftHandThumb3
+    100074: Character 2_Ctrl:LeftHandThumb4
+    100076: Character 2_Ctrl:LeftHandThumbEffector
+    100078: Character 2_Ctrl:LeftHipEffector
+    100080: Character 2_Ctrl:LeftKneeEffector
+    100082: Character 2_Ctrl:LeftLeg
+    100084: Character 2_Ctrl:LeftShoulder
+    100086: Character 2_Ctrl:LeftShoulderEffector
+    100088: Character 2_Ctrl:LeftToeBase
+    100090: Character 2_Ctrl:LeftUpLeg
+    100092: Character 2_Ctrl:LeftWristEffector
+    100094: Character 2_Ctrl:Neck
+    100096: Character 2_Ctrl:Reference
+    100098: Character 2_Ctrl:RightAnkleEffector
+    100100: Character 2_Ctrl:RightArm
+    100102: Character 2_Ctrl:RightElbowEffector
+    100104: Character 2_Ctrl:RightFoot
+    100106: Character 2_Ctrl:RightFootEffector
+    100108: Character 2_Ctrl:RightForeArm
+    100110: Character 2_Ctrl:RightHand
+    100112: Character 2_Ctrl:RightHipEffector
+    100114: Character 2_Ctrl:RightKneeEffector
+    100116: Character 2_Ctrl:RightLeg
+    100118: Character 2_Ctrl:RightShoulder
+    100120: Character 2_Ctrl:RightShoulderEffector
+    100122: Character 2_Ctrl:RightToeBase
+    100124: Character 2_Ctrl:RightUpLeg
+    100126: Character 2_Ctrl:RightWristEffector
+    100128: Character 2_Ctrl:Spine
+    100130: Character 2_Ctrl:Spine1
+    100132: PlantGirl_GEO_OG
+    100134: PlantGirl_Hair
+    100136: PlantGirl_Hair1
+    100138: PlantGirl_Hair3
+    100140: PlantGirl_Hair4
+    100142: PlantGirl_Hair5
+    100144: PlantGirl_Head
+    100146: PlantGirl_Head2
+    100148: PlantGirl_Hips_OG
+    100150: PlantGirl_LeftArm
+    100152: PlantGirl_LeftFoot
+    100154: PlantGirl_LeftForeArm
+    100156: PlantGirl_LeftHand
+    100158: PlantGirl_LeftHandIndex1
+    100160: PlantGirl_LeftHandIndex2
+    100162: PlantGirl_LeftHandIndex3
+    100164: PlantGirl_LeftHandIndex4
+    100166: PlantGirl_LeftHandMiddle1
+    100168: PlantGirl_LeftHandMiddle2
+    100170: PlantGirl_LeftHandMiddle3
+    100172: PlantGirl_LeftHandMiddle4
+    100174: PlantGirl_LeftHandPinky1
+    100176: PlantGirl_LeftHandPinky2
+    100178: PlantGirl_LeftHandPinky3
+    100180: PlantGirl_LeftHandPinky4
+    100182: PlantGirl_LeftHandRing1
+    100184: PlantGirl_LeftHandRing2
+    100186: PlantGirl_LeftHandRing3
+    100188: PlantGirl_LeftHandRing4
+    100190: PlantGirl_LeftHandThumb1
+    100192: PlantGirl_LeftHandThumb2
+    100194: PlantGirl_LeftHandThumb3______
+    100196: PlantGirl_LeftHandThumb4
+    100198: PlantGirl_LeftLeg
+    100200: PlantGirl_LeftShoulder
+    100202: PlantGirl_LeftSkirt
+    100204: PlantGirl_LeftToeBase
+    100206: PlantGirl_LeftUpLeg
+    100208: PlantGirl_Neck
+    100210: PlantGirl_RightArm
+    100212: PlantGirl_RightFoot
+    100214: PlantGirl_RightForeArm
+    100216: PlantGirl_RightHand
+    100218: PlantGirl_RightHandIndex1
+    100220: PlantGirl_RightHandIndex2
+    100222: PlantGirl_RightHandIndex3
+    100224: PlantGirl_RightHandIndex4
+    100226: PlantGirl_RightHandMiddle1
+    100228: PlantGirl_RightHandMiddle2
+    100230: PlantGirl_RightHandMiddle3
+    100232: PlantGirl_RightHandMiddle4
+    100234: PlantGirl_RightHandPinky1
+    100236: PlantGirl_RightHandPinky2
+    100238: PlantGirl_RightHandPinky3
+    100240: PlantGirl_RightHandPinky4
+    100242: PlantGirl_RightHandRing1
+    100244: PlantGirl_RightHandRing2
+    100246: PlantGirl_RightHandRing3
+    100248: PlantGirl_RightHandRing4
+    100250: PlantGirl_RightHandThumb1
+    100252: PlantGirl_RightHandThumb2
+    100254: PlantGirl_RightHandThumb3
+    100256: PlantGirl_RightHandThumb4
+    100258: PlantGirl_RightLeg
+    100260: PlantGirl_RightShoulder
+    100262: PlantGirl_RightSkirt
+    100264: PlantGirl_RightToeBase
+    100266: PlantGirl_RightUpLeg
+    100268: PlantGirl_Spine
+    100270: PlantGirl_Spine1
+    100272: PlantGirlStaff_GEO
+    100274: Weapons_Attachment
+    400000: //RootNode
+    400002: Character 2_Ctrl:ChestEndEffector
+    400004: Character 2_Ctrl:ChestOriginEffector
+    400006: Character 2_Ctrl:Head
+    400008: Character 2_Ctrl:HeadEffector
+    400010: Character 2_Ctrl:Hips
+    400012: Character 2_Ctrl:HipsEffector
+    400014: Character 2_Ctrl:LeftAnkleEffector
+    400016: Character 2_Ctrl:LeftArm
+    400018: Character 2_Ctrl:LeftElbowEffector
+    400020: Character 2_Ctrl:LeftFoot
+    400022: Character 2_Ctrl:LeftFootEffector
+    400024: Character 2_Ctrl:LeftForeArm
+    400026: Character 2_Ctrl:LeftHand
+    400028: Character 2_Ctrl:LeftHandIndex1
+    400030: Character 2_Ctrl:LeftHandIndex2
+    400032: Character 2_Ctrl:LeftHandIndex3
+    400034: Character 2_Ctrl:LeftHandIndex4
+    400036: Character 2_Ctrl:LeftHandIndexEffector
+    400038: Character 2_Ctrl:LeftHandMiddle1
+    400040: Character 2_Ctrl:LeftHandMiddle2
+    400042: Character 2_Ctrl:LeftHandMiddle3
+    400044: Character 2_Ctrl:LeftHandMiddle4
+    400046: Character 2_Ctrl:LeftHandMiddleEffector
+    400048: Character 2_Ctrl:LeftHandPinky1
+    400050: Character 2_Ctrl:LeftHandPinky2
+    400052: Character 2_Ctrl:LeftHandPinky3
+    400054: Character 2_Ctrl:LeftHandPinky4
+    400056: Character 2_Ctrl:LeftHandPinkyEffector
+    400058: Character 2_Ctrl:LeftHandRing1
+    400060: Character 2_Ctrl:LeftHandRing2
+    400062: Character 2_Ctrl:LeftHandRing3
+    400064: Character 2_Ctrl:LeftHandRing4
+    400066: Character 2_Ctrl:LeftHandRingEffector
+    400068: Character 2_Ctrl:LeftHandThumb1
+    400070: Character 2_Ctrl:LeftHandThumb2
+    400072: Character 2_Ctrl:LeftHandThumb3
+    400074: Character 2_Ctrl:LeftHandThumb4
+    400076: Character 2_Ctrl:LeftHandThumbEffector
+    400078: Character 2_Ctrl:LeftHipEffector
+    400080: Character 2_Ctrl:LeftKneeEffector
+    400082: Character 2_Ctrl:LeftLeg
+    400084: Character 2_Ctrl:LeftShoulder
+    400086: Character 2_Ctrl:LeftShoulderEffector
+    400088: Character 2_Ctrl:LeftToeBase
+    400090: Character 2_Ctrl:LeftUpLeg
+    400092: Character 2_Ctrl:LeftWristEffector
+    400094: Character 2_Ctrl:Neck
+    400096: Character 2_Ctrl:Reference
+    400098: Character 2_Ctrl:RightAnkleEffector
+    400100: Character 2_Ctrl:RightArm
+    400102: Character 2_Ctrl:RightElbowEffector
+    400104: Character 2_Ctrl:RightFoot
+    400106: Character 2_Ctrl:RightFootEffector
+    400108: Character 2_Ctrl:RightForeArm
+    400110: Character 2_Ctrl:RightHand
+    400112: Character 2_Ctrl:RightHipEffector
+    400114: Character 2_Ctrl:RightKneeEffector
+    400116: Character 2_Ctrl:RightLeg
+    400118: Character 2_Ctrl:RightShoulder
+    400120: Character 2_Ctrl:RightShoulderEffector
+    400122: Character 2_Ctrl:RightToeBase
+    400124: Character 2_Ctrl:RightUpLeg
+    400126: Character 2_Ctrl:RightWristEffector
+    400128: Character 2_Ctrl:Spine
+    400130: Character 2_Ctrl:Spine1
+    400132: PlantGirl_GEO_OG
+    400134: PlantGirl_Hair
+    400136: PlantGirl_Hair1
+    400138: PlantGirl_Hair3
+    400140: PlantGirl_Hair4
+    400142: PlantGirl_Hair5
+    400144: PlantGirl_Head
+    400146: PlantGirl_Head2
+    400148: PlantGirl_Hips_OG
+    400150: PlantGirl_LeftArm
+    400152: PlantGirl_LeftFoot
+    400154: PlantGirl_LeftForeArm
+    400156: PlantGirl_LeftHand
+    400158: PlantGirl_LeftHandIndex1
+    400160: PlantGirl_LeftHandIndex2
+    400162: PlantGirl_LeftHandIndex3
+    400164: PlantGirl_LeftHandIndex4
+    400166: PlantGirl_LeftHandMiddle1
+    400168: PlantGirl_LeftHandMiddle2
+    400170: PlantGirl_LeftHandMiddle3
+    400172: PlantGirl_LeftHandMiddle4
+    400174: PlantGirl_LeftHandPinky1
+    400176: PlantGirl_LeftHandPinky2
+    400178: PlantGirl_LeftHandPinky3
+    400180: PlantGirl_LeftHandPinky4
+    400182: PlantGirl_LeftHandRing1
+    400184: PlantGirl_LeftHandRing2
+    400186: PlantGirl_LeftHandRing3
+    400188: PlantGirl_LeftHandRing4
+    400190: PlantGirl_LeftHandThumb1
+    400192: PlantGirl_LeftHandThumb2
+    400194: PlantGirl_LeftHandThumb3______
+    400196: PlantGirl_LeftHandThumb4
+    400198: PlantGirl_LeftLeg
+    400200: PlantGirl_LeftShoulder
+    400202: PlantGirl_LeftSkirt
+    400204: PlantGirl_LeftToeBase
+    400206: PlantGirl_LeftUpLeg
+    400208: PlantGirl_Neck
+    400210: PlantGirl_RightArm
+    400212: PlantGirl_RightFoot
+    400214: PlantGirl_RightForeArm
+    400216: PlantGirl_RightHand
+    400218: PlantGirl_RightHandIndex1
+    400220: PlantGirl_RightHandIndex2
+    400222: PlantGirl_RightHandIndex3
+    400224: PlantGirl_RightHandIndex4
+    400226: PlantGirl_RightHandMiddle1
+    400228: PlantGirl_RightHandMiddle2
+    400230: PlantGirl_RightHandMiddle3
+    400232: PlantGirl_RightHandMiddle4
+    400234: PlantGirl_RightHandPinky1
+    400236: PlantGirl_RightHandPinky2
+    400238: PlantGirl_RightHandPinky3
+    400240: PlantGirl_RightHandPinky4
+    400242: PlantGirl_RightHandRing1
+    400244: PlantGirl_RightHandRing2
+    400246: PlantGirl_RightHandRing3
+    400248: PlantGirl_RightHandRing4
+    400250: PlantGirl_RightHandThumb1
+    400252: PlantGirl_RightHandThumb2
+    400254: PlantGirl_RightHandThumb3
+    400256: PlantGirl_RightHandThumb4
+    400258: PlantGirl_RightLeg
+    400260: PlantGirl_RightShoulder
+    400262: PlantGirl_RightSkirt
+    400264: PlantGirl_RightToeBase
+    400266: PlantGirl_RightUpLeg
+    400268: PlantGirl_Spine
+    400270: PlantGirl_Spine1
+    400272: PlantGirlStaff_GEO
+    400274: Weapons_Attachment
+    7400000: mixamo.com
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: mixamo.com
+      takeName: mixamo.com
+      firstFrame: 0
+      lastFrame: 81
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

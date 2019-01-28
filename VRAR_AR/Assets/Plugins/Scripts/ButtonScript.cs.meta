@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: df49dc0de4cf472418728379d90448a5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Cube: {fileID: 1568134949493496, guid: 51ca3d4cb844941ec9635851197bfaed, type: 2}
+  - ingameCursor: {fileID: 1840600215691836, guid: 8ef62e321dcecf946aa25ea68d2e07ae,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,20 @@
+# This file uses centimeters as units for non-parametric coordinates.
+
+mtllib GrassPlane.mtl
+g default
+v -1.531617 -0.000000 0.000000
+v 1.457367 -0.000000 0.000000
+v -1.531617 2.053004 0.000000
+v 1.457367 2.053004 0.000000
+vt 0.005806 0.010356
+vt 0.994339 0.010356
+vt 0.005806 0.689337
+vt 0.994339 0.689337
+vn 0.000000 0.000000 1.000000
+vn 0.000000 0.000000 1.000000
+vn 0.000000 0.000000 1.000000
+vn 0.000000 0.000000 1.000000
+s off
+g GrassPlane
+usemtl initialShadingGroup
+f 1/1/1 2/2/2 4/4/3 3/3/4

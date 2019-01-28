@@ -1,0 +1,1004 @@
+fileFormatVersion: 2
+guid: 928af58438e83484dabdfd1b0e45736e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: PlantGirl_GEO
+    100004: PlantGirl_Hair
+    100006: PlantGirl_Hair1
+    100008: PlantGirl_Hair3
+    100010: PlantGirl_Hair4
+    100012: PlantGirl_Hair5
+    100014: PlantGirl_Head
+    100016: PlantGirl_Head2
+    100018: PlantGirl_Hips
+    100020: PlantGirl_LeftArm
+    100022: PlantGirl_LeftFoot
+    100024: PlantGirl_LeftForeArm
+    100026: PlantGirl_LeftHand
+    100028: PlantGirl_LeftHandIndex1
+    100030: PlantGirl_LeftHandIndex2
+    100032: PlantGirl_LeftHandIndex3
+    100034: PlantGirl_LeftHandIndex4
+    100036: PlantGirl_LeftHandMiddle1
+    100038: PlantGirl_LeftHandMiddle2
+    100040: PlantGirl_LeftHandMiddle3
+    100042: PlantGirl_LeftHandMiddle4
+    100044: PlantGirl_LeftHandPinky1
+    100046: PlantGirl_LeftHandPinky2
+    100048: PlantGirl_LeftHandPinky3
+    100050: PlantGirl_LeftHandPinky4
+    100052: PlantGirl_LeftHandRing1
+    100054: PlantGirl_LeftHandRing2
+    100056: PlantGirl_LeftHandRing3
+    100058: PlantGirl_LeftHandRing4
+    100060: PlantGirl_LeftHandThumb1
+    100062: PlantGirl_LeftHandThumb2
+    100064: PlantGirl_LeftHandThumb3______
+    100066: PlantGirl_LeftHandThumb4
+    100068: PlantGirl_LeftLeg
+    100070: PlantGirl_LeftShoulder
+    100072: PlantGirl_LeftSkirt
+    100074: PlantGirl_LeftToeBase
+    100076: PlantGirl_LeftUpLeg
+    100078: PlantGirl_Neck
+    100080: PlantGirl_RightArm
+    100082: PlantGirl_RightFoot
+    100084: PlantGirl_RightForeArm
+    100086: PlantGirl_RightHand
+    100088: PlantGirl_RightHandIndex1
+    100090: PlantGirl_RightHandIndex2
+    100092: PlantGirl_RightHandIndex3
+    100094: PlantGirl_RightHandIndex4
+    100096: PlantGirl_RightHandMiddle1
+    100098: PlantGirl_RightHandMiddle2
+    100100: PlantGirl_RightHandMiddle3
+    100102: PlantGirl_RightHandMiddle4
+    100104: PlantGirl_RightHandPinky1
+    100106: PlantGirl_RightHandPinky2
+    100108: PlantGirl_RightHandPinky3
+    100110: PlantGirl_RightHandPinky4
+    100112: PlantGirl_RightHandRing1
+    100114: PlantGirl_RightHandRing2
+    100116: PlantGirl_RightHandRing3
+    100118: PlantGirl_RightHandRing4
+    100120: PlantGirl_RightHandThumb1
+    100122: PlantGirl_RightHandThumb2
+    100124: PlantGirl_RightHandThumb3
+    100126: PlantGirl_RightHandThumb4
+    100128: PlantGirl_RightLeg
+    100130: PlantGirl_RightShoulder
+    100132: PlantGirl_RightSkirt
+    100134: PlantGirl_RightToeBase
+    100136: PlantGirl_RightUpLeg
+    100138: PlantGirl_Spine
+    100140: PlantGirl_Spine1
+    400000: //RootNode
+    400002: PlantGirl_GEO
+    400004: PlantGirl_Hair
+    400006: PlantGirl_Hair1
+    400008: PlantGirl_Hair3
+    400010: PlantGirl_Hair4
+    400012: PlantGirl_Hair5
+    400014: PlantGirl_Head
+    400016: PlantGirl_Head2
+    400018: PlantGirl_Hips
+    400020: PlantGirl_LeftArm
+    400022: PlantGirl_LeftFoot
+    400024: PlantGirl_LeftForeArm
+    400026: PlantGirl_LeftHand
+    400028: PlantGirl_LeftHandIndex1
+    400030: PlantGirl_LeftHandIndex2
+    400032: PlantGirl_LeftHandIndex3
+    400034: PlantGirl_LeftHandIndex4
+    400036: PlantGirl_LeftHandMiddle1
+    400038: PlantGirl_LeftHandMiddle2
+    400040: PlantGirl_LeftHandMiddle3
+    400042: PlantGirl_LeftHandMiddle4
+    400044: PlantGirl_LeftHandPinky1
+    400046: PlantGirl_LeftHandPinky2
+    400048: PlantGirl_LeftHandPinky3
+    400050: PlantGirl_LeftHandPinky4
+    400052: PlantGirl_LeftHandRing1
+    400054: PlantGirl_LeftHandRing2
+    400056: PlantGirl_LeftHandRing3
+    400058: PlantGirl_LeftHandRing4
+    400060: PlantGirl_LeftHandThumb1
+    400062: PlantGirl_LeftHandThumb2
+    400064: PlantGirl_LeftHandThumb3______
+    400066: PlantGirl_LeftHandThumb4
+    400068: PlantGirl_LeftLeg
+    400070: PlantGirl_LeftShoulder
+    400072: PlantGirl_LeftSkirt
+    400074: PlantGirl_LeftToeBase
+    400076: PlantGirl_LeftUpLeg
+    400078: PlantGirl_Neck
+    400080: PlantGirl_RightArm
+    400082: PlantGirl_RightFoot
+    400084: PlantGirl_RightForeArm
+    400086: PlantGirl_RightHand
+    400088: PlantGirl_RightHandIndex1
+    400090: PlantGirl_RightHandIndex2
+    400092: PlantGirl_RightHandIndex3
+    400094: PlantGirl_RightHandIndex4
+    400096: PlantGirl_RightHandMiddle1
+    400098: PlantGirl_RightHandMiddle2
+    400100: PlantGirl_RightHandMiddle3
+    400102: PlantGirl_RightHandMiddle4
+    400104: PlantGirl_RightHandPinky1
+    400106: PlantGirl_RightHandPinky2
+    400108: PlantGirl_RightHandPinky3
+    400110: PlantGirl_RightHandPinky4
+    400112: PlantGirl_RightHandRing1
+    400114: PlantGirl_RightHandRing2
+    400116: PlantGirl_RightHandRing3
+    400118: PlantGirl_RightHandRing4
+    400120: PlantGirl_RightHandThumb1
+    400122: PlantGirl_RightHandThumb2
+    400124: PlantGirl_RightHandThumb3
+    400126: PlantGirl_RightHandThumb4
+    400128: PlantGirl_RightLeg
+    400130: PlantGirl_RightShoulder
+    400132: PlantGirl_RightSkirt
+    400134: PlantGirl_RightToeBase
+    400136: PlantGirl_RightUpLeg
+    400138: PlantGirl_Spine
+    400140: PlantGirl_Spine1
+    2100000: PlantGirl_MTRL
+    4300000: PlantGirl_GEO
+    9500000: //RootNode
+    13700000: PlantGirl_GEO
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.07
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: PlantGirl_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_Hair
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_LeftHandThumb3______
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PlantGirl_RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: PlantGirl(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_GEO
+      parentName: PlantGirl(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: PlantGirl_Hips
+      parentName: PlantGirl(Clone)
+      position: {x: -0, y: 1.0249603, z: 0.019555584}
+      rotation: {x: 0.6997795, y: -0.6997795, z: -0.10153164, w: -0.10153164}
+      scale: {x: 0.01, y: 0.01, z: 0.01}
+    - name: PlantGirl_LeftUpLeg
+      parentName: PlantGirl_Hips
+      position: {x: 2.6162615, y: 10.945469, z: -1.9323425}
+      rotation: {x: -0.053933244, y: 0.99249053, z: 0.005957342, w: -0.10962822}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_LeftLeg
+      parentName: PlantGirl_LeftUpLeg
+      position: {x: -46.22755, y: -1.5774554e-14, z: 2.705575e-14}
+      rotation: {x: 0.0054124417, y: -0.050236087, z: 0.0012481445, w: 0.99872196}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_LeftFoot
+      parentName: PlantGirl_LeftLeg
+      position: {x: -45.418327, y: -5.833506e-15, z: -1.15018096e-14}
+      rotation: {x: -0.029379738, y: 0.55341244, z: 0.044127416, w: 0.83121854}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_LeftToeBase
+      parentName: PlantGirl_LeftFoot
+      position: {x: -14.358348, y: -1.3972185e-15, z: 7.7766645e-15}
+      rotation: {x: 0.34072253, y: -0.3407223, z: -0.6196031, w: 0.6196035}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_LeftSkirt
+      parentName: PlantGirl_LeftUpLeg
+      position: {x: -30.347609, y: 18.483318, z: -0.27321365}
+      rotation: {x: -0.025360718, y: 0.022746507, z: -0.667309, w: 0.74400145}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_RightUpLeg
+      parentName: PlantGirl_Hips
+      position: {x: 2.6162376, y: -10.9455, z: -1.9323332}
+      rotation: {x: 0.05393311, y: 0.99249053, z: -0.0059573264, w: -0.10962821}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_RightLeg
+      parentName: PlantGirl_RightUpLeg
+      position: {x: -46.227562, y: 4.1272815e-15, z: 5.3613137e-15}
+      rotation: {x: -0.0054124123, y: -0.050235935, z: -0.0012481216, w: 0.99872196}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_RightFoot
+      parentName: PlantGirl_RightLeg
+      position: {x: -45.41834, y: 4.6417363e-15, z: -2.6951857e-14}
+      rotation: {x: 0.029379468, y: 0.5534122, z: -0.044127617, w: 0.8312187}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_RightToeBase
+      parentName: PlantGirl_RightFoot
+      position: {x: -14.35835, y: -1.0303157e-15, z: -3.1962915e-16}
+      rotation: {x: 0.34072232, y: -0.34072232, z: -0.61960334, w: 0.61960334}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_RightSkirt
+      parentName: PlantGirl_RightUpLeg
+      position: {x: -30.347578, y: -18.483305, z: -0.27321148}
+      rotation: {x: 0.1317781, y: -0.12928958, z: -0.73049617, w: 0.65749073}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_Spine
+      parentName: PlantGirl_Hips
+      position: {x: -11.846957, y: -2.524355e-29, z: 1.4210855e-14}
+      rotation: {x: -1.9147234e-17, y: 0.1720988, z: -8.8954725e-17, w: 0.9850797}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_Spine1
+      parentName: PlantGirl_Spine
+      position: {x: -13.564589, y: -4.833569e-15, z: 1.9428903e-15}
+      rotation: {x: 7.896708e-18, y: 0.0766484, z: 4.9892252e-17, w: 0.9970582}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_LeftShoulder
+      parentName: PlantGirl_Spine1
+      position: {x: -22.788954, y: 5.1633954, z: 0.6345908}
+      rotation: {x: -0.5759427, y: 0.8072801, z: -0.07480299, w: 0.104848914}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_LeftArm
+      parentName: PlantGirl_LeftShoulder
+      position: {x: -7.986852, y: 2.5901293e-14, z: -2.991761e-16}
+      rotation: {x: 0.019553399, y: -0.0011116787, z: -0.14258711, w: 0.98958844}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_LeftForeArm
+      parentName: PlantGirl_LeftArm
+      position: {x: -20.56759, y: -1.5994906e-14, z: -6.6993244e-16}
+      rotation: {x: -0.08610247, y: 0.03737535, z: -0.013184663, w: 0.99549776}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_LeftHand
+      parentName: PlantGirl_LeftForeArm
+      position: {x: -24.221241, y: -7.773826e-17, z: 7.802264e-15}
+      rotation: {x: 0.012309951, y: -0.012424671, z: -0.083923794, w: 0.9963187}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_LeftHandIndex1
+      parentName: PlantGirl_LeftHand
+      position: {x: -9.266126, y: -0.72108185, z: 2.2744424}
+      rotation: {x: 0.044981223, y: -0.04043052, z: 0.042363457, w: 0.99727}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_LeftHandIndex2
+      parentName: PlantGirl_LeftHandIndex1
+      position: {x: -4.676837, y: -3.775433e-15, z: 7.3323195e-15}
+      rotation: {x: -0.01718548, y: 0.017203236, z: 0.011288138, w: 0.9996406}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_LeftHandIndex3
+      parentName: PlantGirl_LeftHandIndex2
+      position: {x: -2.7984698, y: 2.003974e-15, z: 9.574248e-16}
+      rotation: {x: 0.02846781, y: -0.029734086, z: 0.009936528, w: 0.99910295}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_LeftHandIndex4
+      parentName: PlantGirl_LeftHandIndex3
+      position: {x: -2.6065238, y: -5.311451e-15, z: -4.9016814e-15}
+      rotation: {x: 0.035657693, y: -0.01543644, z: -0.39697745, w: 0.91700554}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_LeftHandMiddle1
+      parentName: PlantGirl_LeftHand
+      position: {x: -8.953366, y: -5.546373e-15, z: 1.5485606e-15}
+      rotation: {x: 0.06515115, y: -0.05800093, z: 0.059118565, w: 0.9944327}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_LeftHandMiddle2
+      parentName: PlantGirl_LeftHandMiddle1
+      position: {x: -5.454742, y: -1.1236749e-14, z: 4.236659e-15}
+      rotation: {x: -0.010905727, y: 0.011158068, z: -0.017663073, w: 0.9997223}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_LeftHandMiddle3
+      parentName: PlantGirl_LeftHandMiddle2
+      position: {x: -3.1461213, y: 2.8020975e-14, z: 4.027412e-15}
+      rotation: {x: 0.007514921, y: -0.007622099, z: 0.013308954, w: 0.9998542}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_LeftHandMiddle4
+      parentName: PlantGirl_LeftHandMiddle3
+      position: {x: -2.5563822, y: 1.8048268e-14, z: -4.535981e-16}
+      rotation: {x: 0.029281447, y: -0.012480019, z: -0.39188388, w: 0.91946393}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_LeftHandPinky1
+      parentName: PlantGirl_LeftHand
+      position: {x: -8.200795, y: -0.28047293, z: -3.9928198}
+      rotation: {x: 0.07103274, y: -0.05687787, z: 0.059476532, w: 0.9940734}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_LeftHandPinky2
+      parentName: PlantGirl_LeftHandPinky1
+      position: {x: -4.1378803, y: -1.2379647e-14, z: 6.686193e-15}
+      rotation: {x: -0.018811433, y: 0.015969343, z: 0.037428904, w: 0.99899465}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_LeftHandPinky3
+      parentName: PlantGirl_LeftHandPinky2
+      position: {x: -1.979281, y: -2.917208e-14, z: 1.5877004e-16}
+      rotation: {x: 0.010100187, y: -0.013590167, z: -0.007962078, w: 0.99982494}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_LeftHandPinky4
+      parentName: PlantGirl_LeftHandPinky3
+      position: {x: -2.0192003, y: -1.1332022e-14, z: -3.683987e-15}
+      rotation: {x: 0.027683757, y: -0.0137797175, z: -0.44539165, w: 0.8948017}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_LeftHandRing1
+      parentName: PlantGirl_LeftHand
+      position: {x: -8.604689, y: 0.18745315, z: -2.2309225}
+      rotation: {x: 0.06127152, y: -0.05166676, z: 0.0643239, w: 0.9947054}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_LeftHandRing2
+      parentName: PlantGirl_LeftHandRing1
+      position: {x: -5.379085, y: -2.9741468e-15, z: -4.678992e-16}
+      rotation: {x: -0.015165645, y: 0.017218169, z: 0.012614971, w: 0.99965715}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_LeftHandRing3
+      parentName: PlantGirl_LeftHandRing2
+      position: {x: -2.5608287, y: -1.2652862e-14, z: 3.6857677e-15}
+      rotation: {x: 0.020972967, y: -0.023690686, z: -0.015133356, w: 0.99938476}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_LeftHandRing4
+      parentName: PlantGirl_LeftHandRing3
+      position: {x: -2.2520926, y: 1.3172327e-14, z: -6.2386975e-15}
+      rotation: {x: 0.020818895, y: -0.00918538, z: -0.4035568, w: 0.9146716}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_LeftHandThumb1
+      parentName: PlantGirl_LeftHand
+      position: {x: -3.2496457, y: -1.4756513, z: 3.2768621}
+      rotation: {x: -0.14575996, y: 0.30356812, z: 0.102373876, w: 0.93601286}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_LeftHandThumb2
+      parentName: PlantGirl_LeftHandThumb1
+      position: {x: -4.5261354, y: -1.9986439e-14, z: -7.373898e-15}
+      rotation: {x: 0.17396423, y: -0.031737026, z: -0.004076026, w: 0.98423207}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_LeftHandThumb3______
+      parentName: PlantGirl_LeftHandThumb2
+      position: {x: -2.55731, y: 2.2155502e-14, z: -2.253002e-15}
+      rotation: {x: 0.020994077, y: -0.025211994, z: -0.019122787, w: 0.9992787}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_LeftHandThumb4
+      parentName: PlantGirl_LeftHandThumb3______
+      position: {x: -3.3399749, y: -1.2563143e-14, z: -4.5142905e-15}
+      rotation: {x: -0.017221814, y: 0.007870127, z: -0.41556722, w: 0.90936536}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_Neck
+      parentName: PlantGirl_Spine1
+      position: {x: -24.693256, y: -3.624776e-15, z: 5.3290705e-15}
+      rotation: {x: 2.440978e-17, y: -0.19007131, z: 1.294644e-16, w: 0.98177034}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_Head
+      parentName: PlantGirl_Neck
+      position: {x: -10.959215, y: -2.332192e-15, z: -2.220446e-15}
+      rotation: {x: 2.7443439e-17, y: -0.11366622, z: 1.264033e-16, w: 0.993519}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_Hair
+      parentName: PlantGirl_Head
+      position: {x: -16.314465, y: 1.7023326e-14, z: 24.470882}
+      rotation: {x: -0.010398385, y: 0.6904315, z: -0.017169401, w: 0.72311926}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_Hair1
+      parentName: PlantGirl_Hair
+      position: {x: -20.808573, y: 6.825129e-15, z: -2.56287e-15}
+      rotation: {x: -8.476143e-17, y: 0.83689356, z: 8.476143e-17, w: 0.54736567}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_Hair3
+      parentName: PlantGirl_Hair1
+      position: {x: -20.969969, y: -8.0778164e-14, z: 3.3322764e-14}
+      rotation: {x: -8.516344e-19, y: 0.1530142, z: -1.8163608e-18, w: 0.98822397}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_Hair4
+      parentName: PlantGirl_Hair3
+      position: {x: -19.732512, y: -1.0712905e-14, z: 8.289209e-15}
+      rotation: {x: 2.048938e-17, y: -0.8543368, z: -2.048938e-17, w: 0.51971984}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_Hair5
+      parentName: PlantGirl_Hair4
+      position: {x: -8.86223, y: -2.7918057e-14, z: -6.900655e-16}
+      rotation: {x: 0.5456418, y: -0.5456418, z: 0.44975004, w: -0.44975004}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_Head2
+      parentName: PlantGirl_Head
+      position: {x: -26.364372, y: -9.442449e-16, z: 1.18088175e-14}
+      rotation: {x: 0.6940599, y: -0.6940599, z: -0.13520686, w: 0.13520686}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_RightShoulder
+      parentName: PlantGirl_Spine1
+      position: {x: -22.789297, y: -5.1634, z: 0.6345125}
+      rotation: {x: 0.5759444, y: 0.80727947, z: 0.074801445, w: 0.10484637}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_RightArm
+      parentName: PlantGirl_RightShoulder
+      position: {x: -7.9870505, y: 3.0544472e-15, z: 2.6368021e-15}
+      rotation: {x: -0.018154157, y: -0.0009107959, z: 0.14259173, w: 0.9896147}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_RightForeArm
+      parentName: PlantGirl_RightArm
+      position: {x: -20.567429, y: -4.5001383e-14, z: 3.1629693e-15}
+      rotation: {x: 0.08610344, y: 0.037441697, z: 0.01317555, w: 0.99549526}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_RightHand
+      parentName: PlantGirl_RightForeArm
+      position: {x: -24.221039, y: 6.3179996e-17, z: 1.9589006e-14}
+      rotation: {x: -0.0123133585, y: -0.012436938, z: 0.0839799, w: 0.99631375}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_RightHandIndex1
+      parentName: PlantGirl_RightHand
+      position: {x: -9.26621, y: 0.7210712, z: 2.274438}
+      rotation: {x: -0.044979427, y: -0.040430386, z: -0.042369574, w: 0.9972698}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_RightHandIndex2
+      parentName: PlantGirl_RightHandIndex1
+      position: {x: -4.6768575, y: 4.0759005e-15, z: 1.4211091e-15}
+      rotation: {x: 0.017168056, y: 0.017188612, z: -0.011345786, w: 0.9996405}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_RightHandIndex3
+      parentName: PlantGirl_RightHandIndex2
+      position: {x: -2.7988505, y: -1.0123986e-14, z: 5.422626e-15}
+      rotation: {x: -0.028439958, y: -0.029702218, z: -0.009750355, w: 0.9991066}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_RightHandIndex4
+      parentName: PlantGirl_RightHandIndex3
+      position: {x: -2.6059473, y: 3.2613748e-15, z: -3.1518827e-15}
+      rotation: {x: -0.015439661, y: 0.03567654, z: 0.91705114, w: -0.39687032}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_RightHandMiddle1
+      parentName: PlantGirl_RightHand
+      position: {x: -8.9533615, y: -1.5145335e-14, z: 4.0554747e-15}
+      rotation: {x: -0.06514858, y: -0.058001727, z: -0.059119795, w: 0.99443275}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_RightHandMiddle2
+      parentName: PlantGirl_RightHandMiddle1
+      position: {x: -5.454781, y: -1.2393893e-14, z: 3.4586947e-16}
+      rotation: {x: 0.010901896, y: 0.01115481, z: 0.017644407, w: 0.99972266}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_RightHandMiddle3
+      parentName: PlantGirl_RightHandMiddle2
+      position: {x: -3.1463284, y: 3.8670857e-15, z: -1.2423881e-15}
+      rotation: {x: -0.0075098136, y: -0.007617132, z: -0.013274686, w: 0.9998547}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_RightHandMiddle4
+      parentName: PlantGirl_RightHandMiddle3
+      position: {x: -2.5563233, y: 2.426943e-14, z: -3.2645361e-15}
+      rotation: {x: -0.01248055, y: 0.029283514, z: 0.9194678, w: -0.39187455}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_RightHandPinky1
+      parentName: PlantGirl_RightHand
+      position: {x: -8.201155, y: 0.28088158, z: -3.9929395}
+      rotation: {x: -0.07103083, y: -0.056888144, z: -0.059469577, w: 0.9940733}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_RightHandPinky2
+      parentName: PlantGirl_RightHandPinky1
+      position: {x: -4.137693, y: 1.403672e-14, z: 4.082051e-15}
+      rotation: {x: 0.018803699, y: 0.015947122, z: -0.03743394, w: 0.9989949}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_RightHandPinky3
+      parentName: PlantGirl_RightHandPinky2
+      position: {x: -1.9796039, y: 5.370791e-15, z: 2.9170842e-17}
+      rotation: {x: -0.010093812, y: -0.013583361, z: 0.007990055, w: 0.9998249}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_RightHandPinky4
+      parentName: PlantGirl_RightHandPinky3
+      position: {x: -2.0192575, y: -5.1467776e-15, z: 5.1716626e-15}
+      rotation: {x: -0.013779738, y: 0.027682602, z: 0.89479405, w: -0.44540712}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_RightHandRing1
+      parentName: PlantGirl_RightHand
+      position: {x: -8.60508, y: -0.18696655, z: -2.2310605}
+      rotation: {x: -0.06126849, y: -0.051682975, z: -0.06431469, w: 0.9947054}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_RightHandRing2
+      parentName: PlantGirl_RightHandRing1
+      position: {x: -5.3787746, y: -6.6832594e-16, z: 1.5956342e-15}
+      rotation: {x: 0.015151249, y: 0.017203365, z: -0.012729197, w: 0.9996562}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_RightHandRing3
+      parentName: PlantGirl_RightHandRing2
+      position: {x: -2.5612552, y: -4.2416334e-14, z: 4.980426e-15}
+      rotation: {x: -0.020958612, y: -0.023674926, z: 0.015282193, w: 0.99938315}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_RightHandRing4
+      parentName: PlantGirl_RightHandRing3
+      position: {x: -2.251794, y: -4.738306e-15, z: 1.1083675e-15}
+      rotation: {x: -0.009185736, y: 0.02082363, z: 0.9146996, w: -0.40349305}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_RightHandThumb1
+      parentName: PlantGirl_RightHand
+      position: {x: -3.2496219, y: 1.4756926, z: 3.276862}
+      rotation: {x: 0.1456128, y: 0.30326, z: -0.10309485, w: 0.93605655}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_RightHandThumb2
+      parentName: PlantGirl_RightHandThumb1
+      position: {x: -4.526324, y: 1.0926456e-15, z: -7.3683786e-15}
+      rotation: {x: -0.17395765, y: -0.031736657, z: 0.0040874165, w: 0.98423314}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_RightHandThumb3
+      parentName: PlantGirl_RightHandThumb2
+      position: {x: -2.5570717, y: 5.5496506e-15, z: 1.0818394e-14}
+      rotation: {x: -0.020991445, y: -0.025208894, z: 0.019005816, w: 0.99928105}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PlantGirl_RightHandThumb4
+      parentName: PlantGirl_RightHandThumb3
+      position: {x: -3.3403404, y: -7.46366e-16, z: -3.86893e-15}
+      rotation: {x: 0.007868293, y: -0.017215103, z: 0.9093409, w: -0.41562113}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

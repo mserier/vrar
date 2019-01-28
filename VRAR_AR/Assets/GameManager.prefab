@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1836499526805108}
+  m_IsPrefabAsset: 1
+--- !u!1 &1836499526805108
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4043339180365272}
+  - component: {fileID: 114112597935943962}
+  - component: {fileID: 114018356726434400}
+  - component: {fileID: 114370604434506142}
+  - component: {fileID: 114463985198321954}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4043339180365272
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1836499526805108}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114018356726434400
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1836499526805108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99683efb847523946a2f1282222b842b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roleData:
+  - {fileID: 11400000, guid: 58466ab3783e03246850614f8a81aba4, type: 2}
+  - {fileID: 11400000, guid: 1613171a451652b469358b1d04feaf5d, type: 2}
+  - {fileID: 11400000, guid: 2dec32bbd84583b4caea24feb8c088b5, type: 2}
+  - {fileID: 11400000, guid: e2c663a583b2ba64aa3dd067081db7f8, type: 2}
+--- !u!114 &114112597935943962
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1836499526805108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c2471094a6078b44aac26b059483d17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultName: smh my head
+--- !u!114 &114370604434506142
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1836499526805108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74a5e1f8c7b09f54cabe533bbeb36b8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tilePrefab: {fileID: 100002, guid: ca2231d88123c654abb97150b83b973f, type: 3}
+  tileHighlightMat: {fileID: 2100000, guid: 2009388872b78b447814af1e5cfe14c6, type: 2}
+  tileObjectData:
+  - {fileID: 11400000, guid: aa9f20dfc0bdd8e4d9ac5c8841235b61, type: 2}
+  - {fileID: 11400000, guid: 8048bd958a62d344596687d939ae673a, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: e386a8da630676946abfb854252e2340, type: 2}
+  - {fileID: 11400000, guid: b42703a4c6ba86c46a8e1f287e394f7c, type: 2}
+  - {fileID: 11400000, guid: 952d579256bd4234b9dab40be383fd4b, type: 2}
+  - {fileID: 11400000, guid: 707894caf82e732489a69c122e25fc9f, type: 2}
+  tileMaterials:
+  - {fileID: 2100000, guid: fef7de36ec661624b9da7fc07f2fd950, type: 2}
+  - {fileID: 2100000, guid: d8d594c36b7f3ef4aaa1ad059451a776, type: 2}
+  - {fileID: 2100000, guid: 4e6f1cff6b030a244af792a245c6c5ee, type: 2}
+--- !u!114 &114463985198321954
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1836499526805108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3740fbb19a45d504a974271634be288f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyData:
+  - {fileID: 11400000, guid: 716d63389604947449b63666e0d8e27c, type: 2}

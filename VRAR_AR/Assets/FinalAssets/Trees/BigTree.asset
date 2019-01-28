@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42f95fd1dde564e4cb1fcc994cf0a8b7, type: 3}
+  m_Name: BigTree
+  m_EditorClassIdentifier: 
+  objectName: Big Tree
+  prefab: {fileID: 1824962398908346, guid: 198a578ddfe79414c8624ef171b8da02, type: 2}
+  interactable: 0

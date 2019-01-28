@@ -1,0 +1,1221 @@
+fileFormatVersion: 2
+guid: 9446afdc34f4cfb4fbf1b7c942718cca
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Character_Ctrl:ChestEndEffector
+    100002: Character_Ctrl:ChestOriginEffector
+    100004: Character_Ctrl:Head
+    100006: Character_Ctrl:HeadEffector
+    100008: Character_Ctrl:Hips
+    100010: Character_Ctrl:HipsEffector
+    100012: Character_Ctrl:LeftAnkleEffector
+    100014: Character_Ctrl:LeftArm
+    100016: Character_Ctrl:LeftElbowEffector
+    100018: Character_Ctrl:LeftFoot
+    100020: Character_Ctrl:LeftFootEffector
+    100022: Character_Ctrl:LeftForeArm
+    100024: Character_Ctrl:LeftHand
+    100026: Character_Ctrl:LeftHandIndex1
+    100028: Character_Ctrl:LeftHandIndex2
+    100030: Character_Ctrl:LeftHandIndex3
+    100032: Character_Ctrl:LeftHandIndex4
+    100034: Character_Ctrl:LeftHandIndexEffector
+    100036: Character_Ctrl:LeftHandMiddle1
+    100038: Character_Ctrl:LeftHandMiddle2
+    100040: Character_Ctrl:LeftHandMiddle3
+    100042: Character_Ctrl:LeftHandMiddle4
+    100044: Character_Ctrl:LeftHandMiddleEffector
+    100046: Character_Ctrl:LeftHandPinky1
+    100048: Character_Ctrl:LeftHandPinky2
+    100050: Character_Ctrl:LeftHandPinky3
+    100052: Character_Ctrl:LeftHandPinky4
+    100054: Character_Ctrl:LeftHandPinkyEffector
+    100056: Character_Ctrl:LeftHandRing1
+    100058: Character_Ctrl:LeftHandRing2
+    100060: Character_Ctrl:LeftHandRing3
+    100062: Character_Ctrl:LeftHandRing4
+    100064: Character_Ctrl:LeftHandRingEffector
+    100066: Character_Ctrl:LeftHandThumb1
+    100068: Character_Ctrl:LeftHandThumb2
+    100070: Character_Ctrl:LeftHandThumb3
+    100072: Character_Ctrl:LeftHandThumb4
+    100074: Character_Ctrl:LeftHandThumbEffector
+    100076: Character_Ctrl:LeftHipEffector
+    100078: Character_Ctrl:LeftKneeEffector
+    100080: Character_Ctrl:LeftLeg
+    100082: Character_Ctrl:LeftShoulder
+    100084: Character_Ctrl:LeftShoulderEffector
+    100086: Character_Ctrl:LeftToeBase
+    100088: Character_Ctrl:LeftUpLeg
+    100090: Character_Ctrl:LeftWristEffector
+    100092: Character_Ctrl:Neck
+    100094: Character_Ctrl:Reference
+    100096: Character_Ctrl:RightAnkleEffector
+    100098: Character_Ctrl:RightArm
+    100100: Character_Ctrl:RightElbowEffector
+    100102: Character_Ctrl:RightFoot
+    100104: Character_Ctrl:RightFootEffector
+    100106: Character_Ctrl:RightForeArm
+    100108: Character_Ctrl:RightHand
+    100110: Character_Ctrl:RightHandIndex1
+    100112: Character_Ctrl:RightHandIndex2
+    100114: Character_Ctrl:RightHandIndex3
+    100116: Character_Ctrl:RightHandIndex4
+    100118: Character_Ctrl:RightHandIndexEffector
+    100120: Character_Ctrl:RightHandMiddle1
+    100122: Character_Ctrl:RightHandMiddle2
+    100124: Character_Ctrl:RightHandMiddle3
+    100126: Character_Ctrl:RightHandMiddle4
+    100128: Character_Ctrl:RightHandMiddleEffector
+    100130: Character_Ctrl:RightHandPinky1
+    100132: Character_Ctrl:RightHandPinky2
+    100134: Character_Ctrl:RightHandPinky3
+    100136: Character_Ctrl:RightHandPinky4
+    100138: Character_Ctrl:RightHandPinkyEffector
+    100140: Character_Ctrl:RightHandRing1
+    100142: Character_Ctrl:RightHandRing2
+    100144: Character_Ctrl:RightHandRing3
+    100146: Character_Ctrl:RightHandRing4
+    100148: Character_Ctrl:RightHandRingEffector
+    100150: Character_Ctrl:RightHandThumb1
+    100152: Character_Ctrl:RightHandThumb2
+    100154: Character_Ctrl:RightHandThumb3
+    100156: Character_Ctrl:RightHandThumb4
+    100158: Character_Ctrl:RightHandThumbEffector
+    100160: Character_Ctrl:RightHipEffector
+    100162: Character_Ctrl:RightKneeEffector
+    100164: Character_Ctrl:RightLeg
+    100166: Character_Ctrl:RightShoulder
+    100168: Character_Ctrl:RightShoulderEffector
+    100170: Character_Ctrl:RightToeBase
+    100172: Character_Ctrl:RightUpLeg
+    100174: Character_Ctrl:RightWristEffector
+    100176: Character_Ctrl:Spine
+    100178: Character_Ctrl:Spine1
+    100180: Character_Ctrl:Spine2
+    100182: Scout_GEO
+    100184: Scout_Head
+    100186: Scout_Head2
+    100188: Scout_Hips
+    100190: Scout_LeftArm
+    100192: Scout_LeftFoot
+    100194: Scout_LeftForeArm
+    100196: Scout_LeftHand
+    100198: Scout_LeftHandIndex1
+    100200: Scout_LeftHandIndex2
+    100202: Scout_LeftHandIndex3
+    100204: Scout_LeftHandIndex4
+    100206: Scout_LeftHandMiddle1
+    100208: Scout_LeftHandMiddle2
+    100210: Scout_LeftHandMiddle3
+    100212: Scout_LeftHandMiddle4
+    100214: Scout_LeftHandPinky1
+    100216: Scout_LeftHandPinky2
+    100218: Scout_LeftHandPinky3
+    100220: Scout_LeftHandPinky4
+    100222: Scout_LeftHandRing1
+    100224: Scout_LeftHandRing2
+    100226: Scout_LeftHandRing3
+    100228: Scout_LeftHandRing4
+    100230: Scout_LeftHandThumb1
+    100232: Scout_LeftHandThumb2
+    100234: Scout_LeftHandThumb3
+    100236: Scout_LeftHandThumb4
+    100238: Scout_LeftJacket1
+    100240: Scout_LeftJacket2
+    100242: Scout_LeftLeg
+    100244: Scout_LeftShoulder
+    100246: Scout_LeftToeBase
+    100248: Scout_LeftUpLeg
+    100250: Scout_Neck
+    100252: Scout_RightArm
+    100254: Scout_RightFoot
+    100256: Scout_RightForeArm
+    100258: Scout_RightHand
+    100260: Scout_RightHandIndex1
+    100262: Scout_RightHandIndex2
+    100264: Scout_RightHandIndex3
+    100266: Scout_RightHandIndex4
+    100268: Scout_RightHandMiddle1
+    100270: Scout_RightHandMiddle2
+    100272: Scout_RightHandMiddle3
+    100274: Scout_RightHandMiddle4
+    100276: Scout_RightHandPinky1
+    100278: Scout_RightHandPinky2
+    100280: Scout_RightHandPinky3
+    100282: Scout_RightHandPinky4
+    100284: Scout_RightHandRing1
+    100286: Scout_RightHandRing2
+    100288: Scout_RightHandRing3
+    100290: Scout_RightHandRing4
+    100292: Scout_RightHandThumb1
+    100294: Scout_RightHandThumb2
+    100296: Scout_RightHandThumb3
+    100298: Scout_RightHandThumb4
+    100300: Scout_RightJacket1
+    100302: Scout_RightJacket2
+    100304: Scout_RightLeg
+    100306: Scout_RightShoulder
+    100308: Scout_RightToeBase
+    100310: Scout_RightUpLeg
+    100312: //RootNode
+    100314: Scout_Spine
+    100316: Scout_Spine1
+    100318: Scout_Spine2
+    100320: Scout_Tail
+    100322: Scout_Tail2
+    400000: Character_Ctrl:ChestEndEffector
+    400002: Character_Ctrl:ChestOriginEffector
+    400004: Character_Ctrl:Head
+    400006: Character_Ctrl:HeadEffector
+    400008: Character_Ctrl:Hips
+    400010: Character_Ctrl:HipsEffector
+    400012: Character_Ctrl:LeftAnkleEffector
+    400014: Character_Ctrl:LeftArm
+    400016: Character_Ctrl:LeftElbowEffector
+    400018: Character_Ctrl:LeftFoot
+    400020: Character_Ctrl:LeftFootEffector
+    400022: Character_Ctrl:LeftForeArm
+    400024: Character_Ctrl:LeftHand
+    400026: Character_Ctrl:LeftHandIndex1
+    400028: Character_Ctrl:LeftHandIndex2
+    400030: Character_Ctrl:LeftHandIndex3
+    400032: Character_Ctrl:LeftHandIndex4
+    400034: Character_Ctrl:LeftHandIndexEffector
+    400036: Character_Ctrl:LeftHandMiddle1
+    400038: Character_Ctrl:LeftHandMiddle2
+    400040: Character_Ctrl:LeftHandMiddle3
+    400042: Character_Ctrl:LeftHandMiddle4
+    400044: Character_Ctrl:LeftHandMiddleEffector
+    400046: Character_Ctrl:LeftHandPinky1
+    400048: Character_Ctrl:LeftHandPinky2
+    400050: Character_Ctrl:LeftHandPinky3
+    400052: Character_Ctrl:LeftHandPinky4
+    400054: Character_Ctrl:LeftHandPinkyEffector
+    400056: Character_Ctrl:LeftHandRing1
+    400058: Character_Ctrl:LeftHandRing2
+    400060: Character_Ctrl:LeftHandRing3
+    400062: Character_Ctrl:LeftHandRing4
+    400064: Character_Ctrl:LeftHandRingEffector
+    400066: Character_Ctrl:LeftHandThumb1
+    400068: Character_Ctrl:LeftHandThumb2
+    400070: Character_Ctrl:LeftHandThumb3
+    400072: Character_Ctrl:LeftHandThumb4
+    400074: Character_Ctrl:LeftHandThumbEffector
+    400076: Character_Ctrl:LeftHipEffector
+    400078: Character_Ctrl:LeftKneeEffector
+    400080: Character_Ctrl:LeftLeg
+    400082: Character_Ctrl:LeftShoulder
+    400084: Character_Ctrl:LeftShoulderEffector
+    400086: Character_Ctrl:LeftToeBase
+    400088: Character_Ctrl:LeftUpLeg
+    400090: Character_Ctrl:LeftWristEffector
+    400092: Character_Ctrl:Neck
+    400094: Character_Ctrl:Reference
+    400096: Character_Ctrl:RightAnkleEffector
+    400098: Character_Ctrl:RightArm
+    400100: Character_Ctrl:RightElbowEffector
+    400102: Character_Ctrl:RightFoot
+    400104: Character_Ctrl:RightFootEffector
+    400106: Character_Ctrl:RightForeArm
+    400108: Character_Ctrl:RightHand
+    400110: Character_Ctrl:RightHandIndex1
+    400112: Character_Ctrl:RightHandIndex2
+    400114: Character_Ctrl:RightHandIndex3
+    400116: Character_Ctrl:RightHandIndex4
+    400118: Character_Ctrl:RightHandIndexEffector
+    400120: Character_Ctrl:RightHandMiddle1
+    400122: Character_Ctrl:RightHandMiddle2
+    400124: Character_Ctrl:RightHandMiddle3
+    400126: Character_Ctrl:RightHandMiddle4
+    400128: Character_Ctrl:RightHandMiddleEffector
+    400130: Character_Ctrl:RightHandPinky1
+    400132: Character_Ctrl:RightHandPinky2
+    400134: Character_Ctrl:RightHandPinky3
+    400136: Character_Ctrl:RightHandPinky4
+    400138: Character_Ctrl:RightHandPinkyEffector
+    400140: Character_Ctrl:RightHandRing1
+    400142: Character_Ctrl:RightHandRing2
+    400144: Character_Ctrl:RightHandRing3
+    400146: Character_Ctrl:RightHandRing4
+    400148: Character_Ctrl:RightHandRingEffector
+    400150: Character_Ctrl:RightHandThumb1
+    400152: Character_Ctrl:RightHandThumb2
+    400154: Character_Ctrl:RightHandThumb3
+    400156: Character_Ctrl:RightHandThumb4
+    400158: Character_Ctrl:RightHandThumbEffector
+    400160: Character_Ctrl:RightHipEffector
+    400162: Character_Ctrl:RightKneeEffector
+    400164: Character_Ctrl:RightLeg
+    400166: Character_Ctrl:RightShoulder
+    400168: Character_Ctrl:RightShoulderEffector
+    400170: Character_Ctrl:RightToeBase
+    400172: Character_Ctrl:RightUpLeg
+    400174: Character_Ctrl:RightWristEffector
+    400176: Character_Ctrl:Spine
+    400178: Character_Ctrl:Spine1
+    400180: Character_Ctrl:Spine2
+    400182: Scout_GEO
+    400184: Scout_Head
+    400186: Scout_Head2
+    400188: Scout_Hips
+    400190: Scout_LeftArm
+    400192: Scout_LeftFoot
+    400194: Scout_LeftForeArm
+    400196: Scout_LeftHand
+    400198: Scout_LeftHandIndex1
+    400200: Scout_LeftHandIndex2
+    400202: Scout_LeftHandIndex3
+    400204: Scout_LeftHandIndex4
+    400206: Scout_LeftHandMiddle1
+    400208: Scout_LeftHandMiddle2
+    400210: Scout_LeftHandMiddle3
+    400212: Scout_LeftHandMiddle4
+    400214: Scout_LeftHandPinky1
+    400216: Scout_LeftHandPinky2
+    400218: Scout_LeftHandPinky3
+    400220: Scout_LeftHandPinky4
+    400222: Scout_LeftHandRing1
+    400224: Scout_LeftHandRing2
+    400226: Scout_LeftHandRing3
+    400228: Scout_LeftHandRing4
+    400230: Scout_LeftHandThumb1
+    400232: Scout_LeftHandThumb2
+    400234: Scout_LeftHandThumb3
+    400236: Scout_LeftHandThumb4
+    400238: Scout_LeftJacket1
+    400240: Scout_LeftJacket2
+    400242: Scout_LeftLeg
+    400244: Scout_LeftShoulder
+    400246: Scout_LeftToeBase
+    400248: Scout_LeftUpLeg
+    400250: Scout_Neck
+    400252: Scout_RightArm
+    400254: Scout_RightFoot
+    400256: Scout_RightForeArm
+    400258: Scout_RightHand
+    400260: Scout_RightHandIndex1
+    400262: Scout_RightHandIndex2
+    400264: Scout_RightHandIndex3
+    400266: Scout_RightHandIndex4
+    400268: Scout_RightHandMiddle1
+    400270: Scout_RightHandMiddle2
+    400272: Scout_RightHandMiddle3
+    400274: Scout_RightHandMiddle4
+    400276: Scout_RightHandPinky1
+    400278: Scout_RightHandPinky2
+    400280: Scout_RightHandPinky3
+    400282: Scout_RightHandPinky4
+    400284: Scout_RightHandRing1
+    400286: Scout_RightHandRing2
+    400288: Scout_RightHandRing3
+    400290: Scout_RightHandRing4
+    400292: Scout_RightHandThumb1
+    400294: Scout_RightHandThumb2
+    400296: Scout_RightHandThumb3
+    400298: Scout_RightHandThumb4
+    400300: Scout_RightJacket1
+    400302: Scout_RightJacket2
+    400304: Scout_RightLeg
+    400306: Scout_RightShoulder
+    400308: Scout_RightToeBase
+    400310: Scout_RightUpLeg
+    400312: //RootNode
+    400314: Scout_Spine
+    400316: Scout_Spine1
+    400318: Scout_Spine2
+    400320: Scout_Tail
+    400322: Scout_Tail2
+    7400000: running
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: running
+      takeName: mixamo.com
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Scout_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_Head2
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Scout_Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Scout Rigged(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_GEO
+      parentName: Scout Rigged(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_Hips
+      parentName: Scout Rigged(Clone)
+      position: {x: -0, y: 0.67547554, z: -0.000426305}
+      rotation: {x: 0.69321483, y: -0.69321483, z: -0.1394748, w: -0.1394748}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_LeftUpLeg
+      parentName: Scout_Hips
+      position: {x: -0.008590487, y: 0.110501945, z: -0.007976514}
+      rotation: {x: 0.16830973, y: -0.95602816, z: -0.04273937, w: 0.23633754}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_LeftJacket1
+      parentName: Scout_LeftUpLeg
+      position: {x: -0.36050314, y: 0.16271761, z: 0.0068083303}
+      rotation: {x: 0.032617282, y: -0.026675189, z: -0.63250965, w: 0.77340555}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_LeftJacket2
+      parentName: Scout_LeftUpLeg
+      position: {x: -0.46471965, y: -0.0670188, z: -0.21749265}
+      rotation: {x: 0.032617282, y: -0.026675189, z: -0.63250965, w: 0.77340555}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_LeftLeg
+      parentName: Scout_LeftUpLeg
+      position: {x: -0.3338726, y: 5.684342e-16, z: 7.105427e-17}
+      rotation: {x: 0.015805688, y: -0.107137896, z: 0.052957553, w: 0.992707}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_LeftFoot
+      parentName: Scout_LeftLeg
+      position: {x: -0.22892442, y: 0, z: -3.8857805e-17}
+      rotation: {x: -0.027353873, y: 0.40606797, z: 0.009579478, w: 0.9133832}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_LeftToeBase
+      parentName: Scout_LeftFoot
+      position: {x: -0.12854256, y: -5.684342e-16, z: -8.8817837e-17}
+      rotation: {x: 0.2543263, y: -0.23546599, z: -0.63726443, w: 0.688308}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_RightUpLeg
+      parentName: Scout_Hips
+      position: {x: -0.008590753, y: -0.110502005, z: -0.007976454}
+      rotation: {x: -0.048805255, y: 0.23463312, z: -0.16680883, w: 0.95642054}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_RightJacket1
+      parentName: Scout_RightUpLeg
+      position: {x: 0.36050326, y: -0.16271764, z: -0.006808288}
+      rotation: {x: 0.032617282, y: -0.026675189, z: -0.63250965, w: 0.77340555}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_RightJacket2
+      parentName: Scout_RightUpLeg
+      position: {x: 0.46471986, y: 0.06701889, z: 0.21749301}
+      rotation: {x: 0.032617282, y: -0.026675189, z: -0.63250965, w: 0.77340555}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_RightLeg
+      parentName: Scout_RightUpLeg
+      position: {x: 0.33387274, y: -0.00000024723553, z: 0.000000062516506}
+      rotation: {x: 0.015805688, y: -0.107137896, z: 0.052957553, w: 0.992707}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_RightFoot
+      parentName: Scout_RightLeg
+      position: {x: 0.22892459, y: -0.000000031104328, z: -0.000000027677688}
+      rotation: {x: -0.027355218, y: 0.40606806, z: 0.009579083, w: 0.91338307}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_RightToeBase
+      parentName: Scout_RightFoot
+      position: {x: 0.12854263, y: -0.00000012811275, z: 0.000000024410529}
+      rotation: {x: 0.2543263, y: -0.23546599, z: -0.63726443, w: 0.688308}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_Spine
+      parentName: Scout_Hips
+      position: {x: -0.10587721, y: 0, z: -7.105427e-17}
+      rotation: {x: 1.1772463e-18, y: 0.15836379, z: 1.0389453e-17, w: 0.98738086}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_Spine1
+      parentName: Scout_Spine
+      position: {x: -0.13118014, y: 0, z: 0.0017604766}
+      rotation: {x: 4.3022868e-19, y: 0.048197743, z: -3.836159e-17, w: 0.9988378}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_Spine2
+      parentName: Scout_Spine1
+      position: {x: -0.13771436, y: 0, z: 0.0016750483}
+      rotation: {x: -5.7822856e-19, y: 0.03977025, z: 1.2908328e-17, w: 0.99920887}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_LeftShoulder
+      parentName: Scout_Spine2
+      position: {x: -0.2107857, y: 0.16988423, z: 0.028052859}
+      rotation: {x: -0.7068422, y: 0.7018143, z: 0.019342612, w: 0.086352214}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_LeftArm
+      parentName: Scout_LeftShoulder
+      position: {x: -0.16777201, y: 2.842171e-16, z: -1.4210854e-16}
+      rotation: {x: 0.13721378, y: 0.05947674, z: -0.008254137, w: 0.9887198}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_LeftForeArm
+      parentName: Scout_LeftArm
+      position: {x: -0.37548587, y: 0, z: -1.3766766e-16}
+      rotation: {x: 0.00988949, y: 0.015762454, z: -0.00013138588, w: 0.99982685}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_LeftHand
+      parentName: Scout_LeftForeArm
+      position: {x: -0.27180538, y: 0, z: 4.6185276e-16}
+      rotation: {x: -0.005189087, y: -0.016534409, z: -0.08097258, w: 0.9965657}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_LeftHandIndex1
+      parentName: Scout_LeftHand
+      position: {x: -0.16510509, y: 0.034294244, z: 0.10163304}
+      rotation: {x: -0.11733505, y: 0.02410921, z: 0.07635928, w: 0.98985887}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_LeftHandIndex2
+      parentName: Scout_LeftHandIndex1
+      position: {x: -0.13750376, y: -2.842171e-16, z: 7.105427e-17}
+      rotation: {x: 0.09856676, y: -0.017890975, z: 0.03173021, w: 0.99446356}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_LeftHandIndex3
+      parentName: Scout_LeftHandIndex2
+      position: {x: -0.1179808, y: -2.842171e-16, z: 0}
+      rotation: {x: 0.025835471, y: -0.019988704, z: 0.035714462, w: 0.9988281}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_LeftHandIndex4
+      parentName: Scout_LeftHandIndex3
+      position: {x: -0.06393242, y: -8.5265126e-16, z: -1.7763568e-17}
+      rotation: {x: -0.022884361, y: 0.029358633, z: -0.40890545, w: 0.9118173}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_LeftHandMiddle1
+      parentName: Scout_LeftHand
+      position: {x: -0.19243707, y: 0, z: 1.7763568e-17}
+      rotation: {x: -0.028706044, y: 0.004434342, z: 0.07681796, w: 0.99662197}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_LeftHandMiddle2
+      parentName: Scout_LeftHandMiddle1
+      position: {x: -0.13567305, y: 0, z: -3.1086245e-17}
+      rotation: {x: 0.033692475, y: -0.0057950816, z: 0.03251515, w: 0.99888647}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_LeftHandMiddle3
+      parentName: Scout_LeftHandMiddle2
+      position: {x: -0.10204589, y: 0, z: 1.7763568e-17}
+      rotation: {x: 0.010535882, y: -0.017650161, z: -0.008881407, w: 0.9997493}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_LeftHandMiddle4
+      parentName: Scout_LeftHandMiddle3
+      position: {x: -0.06751961, y: -2.842171e-16, z: -7.105427e-17}
+      rotation: {x: -0.034182474, y: 0.019240253, z: -0.48943907, w: 0.87115484}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_LeftHandPinky1
+      parentName: Scout_LeftHand
+      position: {x: -0.123031795, y: -0.089482, z: -0.1667862}
+      rotation: {x: 0.20862114, y: -0.023132564, z: 0.06275474, w: 0.97570693}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_LeftHandPinky2
+      parentName: Scout_LeftHandPinky1
+      position: {x: -0.0968299, y: -4.2632563e-16, z: 7.105427e-17}
+      rotation: {x: -0.041528665, y: 0.021623679, z: 0.02923519, w: 0.99847543}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_LeftHandPinky3
+      parentName: Scout_LeftHandPinky2
+      position: {x: -0.07355012, y: 2.842171e-16, z: -1.4210854e-16}
+      rotation: {x: -0.022156758, y: 0.022087531, z: 0.026950357, w: 0.9991471}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_LeftHandPinky4
+      parentName: Scout_LeftHandPinky3
+      position: {x: -0.07005904, y: -1.4210854e-16, z: 7.105427e-17}
+      rotation: {x: -0.3106454, y: -0.12612097, z: -0.36707205, w: 0.8676699}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_LeftHandRing1
+      parentName: Scout_LeftHand
+      position: {x: -0.19266976, y: -0.04020848, z: -0.09135761}
+      rotation: {x: 0.11299104, y: -0.014655771, z: 0.06938189, w: 0.99106234}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_LeftHandRing2
+      parentName: Scout_LeftHandRing1
+      position: {x: -0.10990787, y: -5.684342e-16, z: -1.4210854e-16}
+      rotation: {x: -0.07019438, y: 0.01276985, z: 0.023970481, w: 0.99716353}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_LeftHandRing3
+      parentName: Scout_LeftHandRing2
+      position: {x: -0.08839704, y: 0, z: 2.0428103e-16}
+      rotation: {x: -0.000048704424, y: 0.0045630853, z: 0.037555173, w: 0.9992842}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_LeftHandRing4
+      parentName: Scout_LeftHandRing3
+      position: {x: -0.066974014, y: 1.4210854e-16, z: -4.4408918e-17}
+      rotation: {x: 0.036175266, y: -0.040391143, z: -0.74419737, w: 0.66575545}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_LeftHandThumb1
+      parentName: Scout_LeftHand
+      position: {x: -0.053629056, y: 0.0070948205, z: 0.1700492}
+      rotation: {x: 0.60365367, y: 0.24847086, z: -0.2432771, w: 0.7174126}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_LeftHandThumb2
+      parentName: Scout_LeftHandThumb1
+      position: {x: -0.08108547, y: 0, z: 1.4210854e-16}
+      rotation: {x: -0.02228235, y: 0.02247848, z: 0.028175967, w: 0.9991018}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_LeftHandThumb3
+      parentName: Scout_LeftHandThumb2
+      position: {x: -0.07533758, y: -2.842171e-16, z: -7.105427e-17}
+      rotation: {x: -0.009336477, y: 0.03902314, z: 0.0035991005, w: 0.99918824}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_LeftHandThumb4
+      parentName: Scout_LeftHandThumb3
+      position: {x: -0.05751301, y: 2.842171e-16, z: -1.4210854e-16}
+      rotation: {x: -0.6247138, y: -0.33125928, z: -0.2691964, w: 0.65386033}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_Neck
+      parentName: Scout_Spine2
+      position: {x: -0.3043265, y: 0, z: 3.375078e-16}
+      rotation: {x: -1.5587397e-32, y: -0.15151459, z: -1.8555185e-17, w: 0.98845506}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_Head
+      parentName: Scout_Neck
+      position: {x: -0.11710727, y: 0, z: -3.5527136e-17}
+      rotation: {x: 1.0103184e-32, y: -0.13195725, z: -1.6160103e-17, w: 0.9912554}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_Head2
+      parentName: Scout_Head
+      position: {x: -0.2626866, y: 0, z: -2.1316282e-16}
+      rotation: {x: -0.6873559, y: 0.6873559, z: 0.16595761, w: -0.16595761}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_RightShoulder
+      parentName: Scout_Spine2
+      position: {x: -0.21078147, y: -0.169884, z: 0.028053263}
+      rotation: {x: -0.019342545, y: -0.086352274, z: -0.7068422, w: 0.7018143}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_RightArm
+      parentName: Scout_RightShoulder
+      position: {x: 0.16777156, y: -0.0000054933575, z: -0.000000040981543}
+      rotation: {x: 0.13708745, y: 0.07305157, z: -0.01013804, w: 0.9878096}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_RightForeArm
+      parentName: Scout_RightArm
+      position: {x: 0.37548596, y: 0.0000006763302, z: 0.000000026933453}
+      rotation: {x: 0.009889509, y: 0.015762405, z: -0.00013155292, w: 0.99982685}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_RightHand
+      parentName: Scout_RightForeArm
+      position: {x: 0.27180615, y: 0.000000748179, z: 0.00000002774534}
+      rotation: {x: -0.005189087, y: -0.016534409, z: -0.08097258, w: 0.9965657}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_RightHandIndex1
+      parentName: Scout_RightHand
+      position: {x: 0.165107, y: -0.034295335, z: -0.10163306}
+      rotation: {x: -0.11733498, y: 0.024108006, z: 0.076352954, w: 0.9898594}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_RightHandIndex2
+      parentName: Scout_RightHandIndex1
+      position: {x: 0.13750146, y: 0.0000017096407, z: 0.00000013182525}
+      rotation: {x: 0.09856663, y: -0.017892309, z: 0.031738613, w: 0.99446326}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_RightHandIndex3
+      parentName: Scout_RightHandIndex2
+      position: {x: 0.117982335, y: -0.0000011738424, z: 0.000000014773363}
+      rotation: {x: 0.025835555, y: -0.019993018, z: 0.03572431, w: 0.9988277}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_RightHandIndex4
+      parentName: Scout_RightHandIndex3
+      position: {x: 0.06393359, y: -0.0000018281359, z: -0.00000003757694}
+      rotation: {x: -0.022884361, y: 0.029358633, z: -0.40890545, w: 0.9118173}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_RightHandMiddle1
+      parentName: Scout_RightHand
+      position: {x: 0.19243355, y: -0.000000098767615, z: -0.00000004312061}
+      rotation: {x: -0.028706085, y: 0.0044347937, z: 0.076824576, w: 0.9966215}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_RightHandMiddle2
+      parentName: Scout_RightHandMiddle1
+      position: {x: 0.13567644, y: -0.0000017108392, z: 0.00000003525521}
+      rotation: {x: 0.033692393, y: -0.005793603, z: 0.032490794, w: 0.9988872}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_RightHandMiddle3
+      parentName: Scout_RightHandMiddle2
+      position: {x: 0.102044135, y: 0.0000032742428, z: 0.00000005593931}
+      rotation: {x: 0.010535882, y: -0.017650161, z: -0.008881407, w: 0.9997493}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_RightHandMiddle4
+      parentName: Scout_RightHandMiddle3
+      position: {x: 0.067519136, y: 0.0000010881018, z: -0.00000009158944}
+      rotation: {x: -0.034182474, y: 0.019240253, z: -0.48943907, w: 0.87115484}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_RightHandPinky1
+      parentName: Scout_RightHand
+      position: {x: 0.12303208, y: 0.08948161, z: 0.16678664}
+      rotation: {x: 0.20861997, y: -0.023127785, z: 0.062730506, w: 0.9757088}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_RightHandPinky2
+      parentName: Scout_RightHandPinky1
+      position: {x: 0.096826695, y: 0.0000044185153, z: -0.00000043536647}
+      rotation: {x: -0.041528653, y: 0.021631075, z: 0.02927672, w: 0.99847406}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_RightHandPinky3
+      parentName: Scout_RightHandPinky2
+      position: {x: 0.07355182, y: -0.0000036787224, z: 0.00000017850786}
+      rotation: {x: -0.022162244, y: 0.022087356, z: 0.02696174, w: 0.99914676}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_RightHandPinky4
+      parentName: Scout_RightHandPinky3
+      position: {x: 0.07005927, y: -0.0000048364845, z: -0.00000037927686}
+      rotation: {x: -0.3106454, y: -0.12612097, z: -0.36707205, w: 0.8676699}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_RightHandRing1
+      parentName: Scout_RightHand
+      position: {x: 0.19266886, y: 0.040208735, z: 0.09135786}
+      rotation: {x: 0.11299054, y: -0.014655733, z: 0.069373645, w: 0.99106294}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_RightHandRing2
+      parentName: Scout_RightHandRing1
+      position: {x: 0.10990505, y: 0.0000017890573, z: -0.00000022763606}
+      rotation: {x: -0.070194215, y: 0.012775396, z: 0.02399237, w: 0.99716294}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_RightHandRing3
+      parentName: Scout_RightHandRing2
+      position: {x: 0.08839794, y: -0.0000024509727, z: 0.0000005441033}
+      rotation: {x: -0.000048816186, y: 0.0045576617, z: 0.03753516, w: 0.9992849}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_RightHandRing4
+      parentName: Scout_RightHandRing3
+      position: {x: 0.06697385, y: 0.000000671044, z: -0.00000045856274}
+      rotation: {x: 0.036175266, y: -0.040391143, z: -0.74419737, w: 0.66575545}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_RightHandThumb1
+      parentName: Scout_RightHand
+      position: {x: 0.0536291, y: -0.0070956065, z: -0.17004947}
+      rotation: {x: 0.6038451, y: 0.2488569, z: -0.24275109, w: 0.7172959}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_RightHandThumb2
+      parentName: Scout_RightHandThumb1
+      position: {x: 0.081082895, y: -0.00000046032912, z: -0.0000018759524}
+      rotation: {x: -0.022281138, y: 0.022506548, z: 0.028173562, w: 0.9991013}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_RightHandThumb3
+      parentName: Scout_RightHandThumb2
+      position: {x: 0.07534194, y: 0.00000052785833, z: 0.000003563335}
+      rotation: {x: -0.009336924, y: 0.038957722, z: 0.003603736, w: 0.9991908}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_RightHandThumb4
+      parentName: Scout_RightHandThumb3
+      position: {x: 0.057509482, y: -0.000001027045, z: -0.000003944292}
+      rotation: {x: -0.6247138, y: -0.33125928, z: -0.2691964, w: 0.65386033}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_Tail
+      parentName: Scout_Hips
+      position: {x: 0.1666378, y: 0, z: 0.10298413}
+      rotation: {x: -5.598278e-17, y: 0.9966046, z: 5.598278e-17, w: -0.08233651}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Scout_Tail2
+      parentName: Scout_Tail
+      position: {x: -0.35889402, y: 0, z: -3.5527136e-17}
+      rotation: {x: -0.081924334, y: 0.081924334, z: -0.70234495, w: 0.70234495}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 05544748c9d22714eb0c94084c845c95,
+    type: 3}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

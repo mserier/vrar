@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 2559711162c4ad5439aa8544a2432c12
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _NoTileNoiseTex: {fileID: 2800000, guid: af5515bfe14f1af4a9b8b3bf306b9261, type: 3}
+  - _Ramp: {fileID: 2800000, guid: ccad9b0732473ee4e95de81e50e9050f, type: 3}
+  nonModifiableTextures: []
+  userData: USER,FEMISSION_TEXTURE,FOCCLUSION,FOCCL_SLIDER,FTEXTURED_THRESHOLD,FTEXTURED_THRESHOLD_UV1,FOUTLINE,FNO_LIGHTMAP,FDISSOLVE_GRADIENT,fnoforwardadd,fnofog,fnolightmap,KSHADER_TARGET:2.5,KOCCLUSION_CHNL:a,KDISSOLVE_GRAD_CONTRAST:4.0,KOVCW_CHNL:r,chD427695B,cSM:30,cCF:TCP2_ShaderTemplate_Default
+  assetBundleName: 
+  assetBundleVariant: 
