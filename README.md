@@ -1,6 +1,8 @@
-# vrar
-Just a f---- school project, move on...
+# Code repository for project 147 Tabletop RPG with AR & VR and motion capture eventually named "Hexagonia"
 
-Wholesome repository for sharing whole unity test projects
+To see classes go to:
+VRAR_AR/Assets/Plugins/Scripts/
 
-Please push any changes in other peoples projects immediately (especially scene changes)
+or
+
+TRPG_STEAMVR/Assets/Plugins/Scripts/
